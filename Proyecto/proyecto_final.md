@@ -26,42 +26,21 @@ Los datos que podamos obtener de ambos sensores permitirán realizar una medida 
 
 
 ## Plan de actividades (Semanas 3 – 15)
-Semana
-Actividad
-3
-Revisión bibliográfica sobre EMG, fatiga muscular y efectos del uso de mochilas. Inicio del planteamiento del proyecto.
-4
-Definición del problema, objetivos y selección del músculo a evaluar (trapecio superior). Entrega de propuesta inicial del proyecto.
-5
-Diseño del protocolo experimental: definición de condiciones de carga (0%, 10%, 15%) y variables a medir (EMG y acelerómetro).
-6
-Selección y configuración de sensores (EMG y acelerómetro). Preparación del entorno de adquisición.
-7
-Pruebas preliminares: colocación de electrodos, calibración del acelerómetro y validación de estabilidad de señal.
-8
-Ajuste del protocolo experimental y control de condiciones de medición (postura, tiempo, repetibilidad).
-9
-Entrega de avance del proyecto (protocolo validado y pruebas iniciales). Retroalimentación del docente.
-10
-Adquisición de datos en condición base (sin mochila) y carga ligera.
-11
-Adquisición de datos en condición de mayor carga y repetición para consistencia experimental.
-12
-Organización y validación de datos adquiridos (selección de segmentos sin ruido ni movimiento).
-13
-Inicio del análisis de señales (definición de variables y preparación para procesamiento).
-14
-Análisis de resultados y comparación entre condiciones de carga.
-15
-Elaboración del informe final y preparación de la presentación del proyecto.
-
-
-
-
-
-
-
-
+| Semana | Actividad |
+| :--- | :--- |
+| 3 | Revisión bibliográfica sobre EMG, fatiga muscular y efectos del uso de mochilas. Inicio del planteamiento del proyecto. |
+| 4 | Definición del problema, objetivos y selección del músculo a evaluar (trapecio superior). Entrega de propuesta inicial del proyecto. |
+| 5 | Diseño del protocolo experimental: definición de condiciones de carga (0%, 10%, 15%) y variables a medir (EMG y acelerómetro). |
+| 6 | Selección y configuración de sensores (EMG y acelerómetro). Preparación del entorno de adquisición. |
+| 7 | Pruebas preliminares: colocación de electrodos, calibración del acelerómetro y validación de estabilidad de señal. |
+| 8 | Ajuste del protocolo experimental y control de condiciones de medición (postura, tiempo, repetibilidad). |
+| 9 | Entrega de avance del proyecto (protocolo validado y pruebas iniciales). Retroalimentación del docente. |
+| 10 | Adquisición de datos en condición base (sin mochila) y carga ligera. |
+| 11 | Adquisición de datos en condición de mayor carga y repetición para consistencia experimental. |
+| 12 | Organización y validación de datos adquiridos (selección de segmentos sin ruido ni movimiento). |
+| 13 | Inicio del análisis de señales (definición de variables y preparación para procesamiento). |
+| 14 | Análisis de resultados y comparación entre condiciones de carga. |
+| 15 | Elaboración del informe final y preparación de la presentación del proyecto. |
 
 
 
