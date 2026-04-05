@@ -62,8 +62,12 @@ Los datos que podamos obtener de ambos sensores permitirán realizar una medida 
 
 ## Referencias (formato IEEE)
 [1] R. Hardie, R. Haskew, J. Harris y G. Hughes, “The effects of bag style on muscle activity of the trapezius, erector spinae and latissimus dorsi during walking in female university students,” Journal of Human Kinetics, vol. 45, pp. 39–47, Apr. 2015, doi: 10.1515/hukin-2015-0005.
+
 [2] Y.-L. Chen, H.-T. Nguyen y Y. Chen, “Influence of school bag loads and carrying methods on body strain among young male students,” International Journal of Industrial Ergonomics, vol. 82, 103095, 2021, doi: 10.1016/j.ergon.2021.103095.
+
 [3] S.-H. Cho, J.-H. Lee y C.-Y. Kim, “Changes in electromyography of the upper trapezius and supraspinatus according to backpack carrying method and weight in female university students,” Journal of Physical Therapy Science, vol. 25, no. 10, pp. 1271–1274, 2013, doi: 10.1589/jpts.25.1271.
+
 [4] F. Matur, F. Alnamroush y B. Büyüksaraç, “Impact of backpack load during walking: an EMG and biomechanical analysis,” Medical & Biological Engineering & Computing, vol. 63, no. 5, pp. 1427–1433, 2025, doi: 10.1007/s11517-024-03280-z.
+
 [5] C. J. De Luca, “Surface electromyography: Detection and recording,” 2002.
 
