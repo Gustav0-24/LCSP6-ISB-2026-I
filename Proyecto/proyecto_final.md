@@ -70,4 +70,3 @@ Los datos que podamos obtener de ambos sensores permitirán realizar una medida 
 [4] F. Matur, F. Alnamroush y B. Büyüksaraç, “Impact of backpack load during walking: an EMG and biomechanical analysis,” Medical & Biological Engineering & Computing, vol. 63, no. 5, pp. 1427–1433, 2025, doi: 10.1007/s11517-024-03280-z.
 
 [5] C. J. De Luca, “Surface electromyography: Detection and recording,” 2002.
-
