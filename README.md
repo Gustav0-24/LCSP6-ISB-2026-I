@@ -2,10 +2,12 @@
 ![Image](https://github.com/user-attachments/assets/37dce909-b820-4bbe-a204-660702b77619)
 -----------------------------------------
 ## Bienvenidos al Repositorio del Grupo 6 ISB 2026-1
-¡Bienvenidos! Este es el repositorio del grupo LCSP6,    
 
+¡Bienvenidos! Este es el repositorio del grupo LCSP6, donde se desarrolla un proyecto enfocado en el análisis de la actividad muscular mediante electromiografía superficial (sEMG). El objetivo principal es estudiar cómo el uso de mochilas con diferentes niveles de carga (0%, 10% y 15% del peso corporal) influye en la activación del músculo trapecio superior en estudiantes universitarios.
 
+A través de un protocolo experimental controlado y el uso combinado de sensores EMG y acelerómetro, este proyecto busca obtener mediciones confiables en entornos no clínicos, contribuyendo al análisis de la fatiga muscular y los cambios biomecánicos asociados al transporte de carga.
 
+Este repositorio incluye el diseño experimental, adquisición de datos y análisis de señales para facilitar la reproducibilidad y el aprendizaje en el área de la bioingeniería.    
 
 
 
