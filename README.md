@@ -1,8 +1,8 @@
 # Introducción a Señales Biomédicas 2026 - I
 ![Image](https://github.com/user-attachments/assets/37dce909-b820-4bbe-a204-660702b77619)
 -----------------------------------------
-## Bienvenidos al Repositorio del Grupo 5 ISB 2025-2
-¡Bienvenidos! Este es el repositorio del grupo 5 IoT lovers, donde podrán encontrar información acerca de nuestro proyecto centrado en BCI Motor Imagery. Nosotros trabajaremos con señales EEG para poder brindar la posibilidad de rehabilitacion en pacientes con miembro fantasma mediante la simulación del movimiento acorde a las señales que envíe el cerebro.
+## Bienvenidos al Repositorio del Grupo 6 ISB 2026-1
+¡Bienvenidos! Este es el repositorio del grupo LCSP6, donde podrán encontrar información acerca de nuestro proyecto centrado en BCI Motor Imagery. Nosotros trabajaremos con señales EEG para poder brindar la posibilidad de rehabilitacion en pacientes con miembro fantasma mediante la simulación del movimiento acorde a las señales que envíe el cerebro.
 ## ¿Quiénes somos?
 | Foto | Presentación | 
 |----------|----------|
