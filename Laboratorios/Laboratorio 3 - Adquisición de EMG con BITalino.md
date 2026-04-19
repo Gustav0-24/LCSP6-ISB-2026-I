@@ -1,7 +1,4 @@
 
-
-
-
 # **LABORATORIO 3: Uso de BITalino para EMG**
 
 ## **1. Introducción**
@@ -47,7 +44,7 @@ Por último, se almacenan y procesan las señales obtenidas, utilizando filtros 
 A continuación, presentamos el material audiovisual del EMG en entranamiento con el biceps braquial:
 
 
-
+https://github.com/user-attachments/assets/28f5e9f0-a83b-4cdb-9ff1-9df40d6ecb73
 
 
 ### **4.3. EMG - Triceps** <a name="id6"></a>
