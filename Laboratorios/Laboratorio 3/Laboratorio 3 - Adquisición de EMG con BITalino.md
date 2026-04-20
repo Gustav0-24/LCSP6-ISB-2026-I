@@ -167,8 +167,8 @@ plt.show()
 
 | Entrenamiento                                   | Densidad Espectral de Potencia (Welch) | Espectro de Frecuencias (FFT)                         |
 |----------------------------------------------|----------|---------------------------------|
-| Reposo                              | <img width="863" height="391" alt="image" src="https://github.com/user-attachments/assets/a741e1e4-d86f-45d0-802d-435acf621f8b" />| <img width="873" height="391" alt="image" src="https://github.com/user-attachments/assets/10c59fd3-8c53-442b-a690-0fa0b30d3f50" /> |
-| Movimiento fuerte con oposición                   | <img width="876" height="392" alt="image" src="https://github.com/user-attachments/assets/a72e87e1-6e37-48c1-bc20-15f5219cfa99" />       | <img width="890" height="392" alt="image" src="https://github.com/user-attachments/assets/857d8d64-e927-4129-8148-f0dddcf1b9e3" />|
+| Reposo                              | <img width="810" height="348" alt="Dens" src="https://github.com/user-attachments/assets/347cd598-1d3c-47b6-854f-45b4fcfeb759" />| <img width="773" height="322" alt="fft" src="https://github.com/user-attachments/assets/d39f2a2e-5bad-4c5c-8465-b9c6401bd2ad" />|
+| Movimiento fuerte con oposición                   | <img width="797" height="341" alt="Dens_o" src="https://github.com/user-attachments/assets/4731b0fb-df65-4209-99c8-18df07b4d206" />|<img width="797" height="365" alt="fft_o" src="https://github.com/user-attachments/assets/70900862-d774-4c09-933a-92ff8005b62d" />|
 
 ### 5.3. EMG - Triceps
 | Entrenamiento                                   | Señal original | Señal filtrada                         |
