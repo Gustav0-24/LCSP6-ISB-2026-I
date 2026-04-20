@@ -57,7 +57,10 @@ Por otro lado, los otros 2 electrodos restantes se sitúan al 50% de la línea t
 <img width="512" height="288" alt="414" src="https://github.com/user-attachments/assets/1975cc34-6cd1-4a28-a9c7-c79784bbbfb0" />
 
 
+
 A continuación, presentamos el material audiovisual del EMG en entranamiento con el Trapecio:
+
+
 
 https://github.com/user-attachments/assets/761f8090-ce2d-4b69-ac3a-1d39ea013fcb
 
