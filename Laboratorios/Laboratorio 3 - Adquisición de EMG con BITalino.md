@@ -48,20 +48,20 @@ https://github.com/user-attachments/assets/28f5e9f0-a83b-4cdb-9ff1-9df40d6ecb73
 
 
 ### **4.3. EMG - Triceps** <a name="id6"></a>
-En la literatura más reciente sobre electromiografía de superficie (EMG), se ha señalado la importancia de mantener protocolos estandarizados de colocación de electrodos en músculos como el bíceps y el tríceps. Un estudio publicado en 2025 destacó que, aunque las recomendaciones clásicas como las del proyecto SENIAM siguen siendo la base de la práctica actual, el foco de los nuevos trabajos está puesto en la integridad de los datos y la consistencia de los registros, más que en proponer cambios sustanciales en la ubicación de los electrodos [11]. Esto implica que la posición en el vientre muscular del tríceps continúa siendo válida, siempre y cuando se respete una correcta orientación y separación de los electrodos.
-Del mismo modo, otra revisión también de 2025, aunque centrada en el tríceps sural, ofrece conclusiones relevantes que pueden extrapolarse al tríceps braquial. Este trabajo subraya la necesidad de reducir el crosstalk o interferencia de músculos adyacentes, así como de minimizar la variabilidad espacial en los registros EMG. Para lograrlo, recomienda mantener los electrodos alineados con las fibras musculares y situarlos en el vientre del músculo, lo que asegura un registro más selectivo y confiable [12].
+Para captar la señal EMG del trapecio adecuadamente se utilizó el protocolo del sistema Bitalino. Se empleó el cable para 3 electrodos ya que el del medio se usó como electrodo de referencia. Este fue colocado sobre la apófisis mastoides la cual es una estructura ósea situada detrás del pabellón auricular, debido a que el electrodo de referencia debe posicionarse en una zona neutra, preferentemente sobre una superficie ósea, como el codo, la frente o la cresta ilíaca [7]. 
+
+Esta zona no presenta masa muscular activa en la realización de los movimientos que se requieren realizar para obtener la señal. 
+Por otro lado, los otros 2 electrodos restantes se sitúan al 50% de la línea trazada entre el acromion y la apófisis espinosa de C7, orientados en dirección paralela a dicha línea y a lo largo de las fibras musculares, con una separación de 20 mm entre ambos [8].
+
 
 <img width="654" height="476" alt="image" src="https://github.com/user-attachments/assets/581a91c7-ce45-4b64-a8a4-f2987a88e074" />
 
-***Fig. 4.** Ubicación de electrodos para la realización de ejercicios [12]*
 
 A continuación, presentamos el material audiovisual del EMG en entranamiento con el triceps:
 
 <div align="center">
  
-|  **Triceps en reposo**  | **Triceps sin oposición** | **Triceps con oposición** |
-|:----------------------:|:------------------------:|:------------------------:|
-| <video src="https://github.com/user-attachments/assets/122f538e-1267-4ab4-ba6d-a0584519151f" controls></video> | <video src="https://github.com/user-attachments/assets/5412d4e4-d70a-40e8-b306-6c804fc63fcb" controls></video> | <video src="https://github.com/user-attachments/assets/dc13e13e-e735-4437-a025-f35a0cd603c7" controls></video> |
+
 
 </div>
 
@@ -222,6 +222,9 @@ En el caso del tríceps braquial, la dinámica espectral y de amplitud sigue un 
 
 [6] Autor(es). “Título del artículo,” Nombre de la revista, vol., no., pp., año. Disponible en: https://dialnet.unirioja.es/servlet/articulo?codigo=9866155
 
+[7] M. Proença and K. Mrotzeck, "BITalino (r)evolution Home Guide #1: Electromyography (EMG)," PLUX – Wireless Biosignals, S.A., Lisbon, Portugal, Tech. Rep. OD.LB.02.07, Feb. 2021.
+
+[8] H. J. Hermens, B. Freriks, C. Disselhorst-Klug, and G. Rau, "Development of recommendations for SEMG sensors and sensor placement procedures," Journal of Electromyography and Kinesiology, vol. 10, no. 5, pp. 361–374, Oct. 2000.
 
 
 
