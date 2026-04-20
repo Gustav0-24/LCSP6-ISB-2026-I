@@ -162,7 +162,8 @@ plt.show()
 | Entrenamiento                                   | Señal original | Señal filtrada                         |
 |----------------------------------------------|----------|---------------------------------|
 | Reposo                              | <img width="841" height="383" alt="EMG_og" src="https://github.com/user-attachments/assets/35c41ad0-377f-4fc8-9865-7a2827d5cbc2" />| <img width="827" height="362" alt="EMG_filt" src="https://github.com/user-attachments/assets/7c6e08eb-7d03-4134-b5b8-94e549efff04" /> |
-| Movimiento fuerte con oposición                   | <img width="859" height="391" alt="image" src="https://github.com/user-attachments/assets/c204fa2b-b28d-4d90-b56a-a35dd35ffcdc" />       | <img width="862" height="391" alt="image" src="https://github.com/user-attachments/assets/989336a7-0473-4f46-bf8f-6259bf8d8ff8" />|
+| Movimiento fuerte con oposición                   | <img width="857" height="388" alt="EMGo_og" src="https://github.com/user-attachments/assets/9bd445cc-f254-41d3-b82e-476c9cddb7ac" /> | <img width="868" height="401" alt="EMGo_filt" src="https://github.com/user-attachments/assets/ed99c287-8493-4b2c-a98c-3ef9a3727b5d" />
+|
 
 | Entrenamiento                                   | Densidad Espectral de Potencia (Welch) | Espectro de Frecuencias (FFT)                         |
 |----------------------------------------------|----------|---------------------------------|
