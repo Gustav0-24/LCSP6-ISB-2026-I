@@ -164,7 +164,7 @@ plt.show()
 | Reposo                              | <img width="810" height="348" alt="Dens" src="https://github.com/user-attachments/assets/347cd598-1d3c-47b6-854f-45b4fcfeb759" />| <img width="773" height="322" alt="fft" src="https://github.com/user-attachments/assets/d39f2a2e-5bad-4c5c-8465-b9c6401bd2ad" />|
 | Movimiento fuerte con oposición                   | <img width="797" height="341" alt="Dens_o" src="https://github.com/user-attachments/assets/4731b0fb-df65-4209-99c8-18df07b4d206" />|<img width="797" height="365" alt="fft_o" src="https://github.com/user-attachments/assets/70900862-d774-4c09-933a-92ff8005b62d" />|
 
-### 5.3. EMG - Triceps
+### **5.3. EMG - Trapecio**
 | Entrenamiento                                   | Señal original | Señal filtrada                         |
 |----------------------------------------------|----------|---------------------------------|
 | Reposo                              |<img width="716" height="432" alt="Captura de pantalla 2026-04-19 235204" src="https://github.com/user-attachments/assets/5b93cef2-d5d6-41db-b20f-fb6e5b851713" /> | <img width="737" height="432" alt="Captura de pantalla 2026-04-19 235220" src="https://github.com/user-attachments/assets/7965bdbb-e82d-4f5b-b552-c19f3001eb29" />|
@@ -184,7 +184,7 @@ En la condición de reposo, la señal es de baja amplitud y de acuerdo con el es
 En la parte en la que nos encontramos con movimiento fuerte y oposición, la señal sí presenta una clara amplitud, ya que se están enviando muchas unidades motoras [10]. También podemos observarlo en el dominio de la frecuencia, donde se incrementa el contenido energético y se puede ver también el característico rango de la señal EMG activa, que se encuentra con frecuencia entre 20 y 150 Hz [11]. 
 
 
-## **6.2. EMG - Triceps** <a name="id9"></a>
+## **6.2. EMG - Trapecio** <a name="id9"></a>
 En los registros de electromiografía superficial del músculo trapecio, la amplitud y el contenido espectral de la señal se relacionan directamente con el nivel de activación neuromuscular. Para poder procesar las señales, éstas fueron filtradas mediante la aplicación de un filtro pasa-banda de 20–450 Hz y un filtro notch a 60 Hz eliminando así la componente DC y la red eléctrica, y de esta forma poder conservar el rango fisiológicamente relevante de la EMG.
 En la condición de reposo, la señal presenta baja amplitud, lo cual es consistente con un reclutamiento mínimo de unidades motoras. En el análisis espectral (FFT y Welch), el espectro de densidad de potencia es bajo encontrándose algunos picos siempre asociados al ruido residual que se hacen acentuar por la baja energía total de la señal. Este comportamiento es característico de bajos niveles de activación muscular, por debajo del 20% de la contracción voluntaria máxima (MVIC) [12].
 Por el contrario, la condición de movimiento (oposición) muestra una clara amplitud de la señal debido a un mayor reclutamiento y sincronización de unidades motoras, aspecto que concuerda con estudios donde ejercicios como la retracción escapular son capaces de conseguir niveles de activación del trapecio moderados-altos [12].En el dominio de la frecuencia, se observa un aumento del contenido energético, concentrado principalmente en el rango característico de la EMG activa (20–150 Hz), evidenciando la participación funcional del músculo en la estabilización escapular.
