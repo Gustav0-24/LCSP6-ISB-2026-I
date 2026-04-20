@@ -163,15 +163,11 @@ plt.show()
 | Entrenamiento                                   | Señal original | Señal filtrada                         |
 |----------------------------------------------|----------|---------------------------------|
 | Reposo                              | <img width="867" height="391" alt="image" src="https://github.com/user-attachments/assets/c16b9bc8-bdce-4fcc-9b4e-b33b1bd82a2a" />| <img width="847" height="391" alt="image" src="https://github.com/user-attachments/assets/b9769556-36ce-4faf-9fad-55ae2ef1dd7e" /> |
-| Movimiento leve sin oposición                        | <img width="850" height="391" alt="image" src="https://github.com/user-attachments/assets/1d1b1b80-523d-46ac-918b-7e19b1e89abb" /> | <img width="853" height="391" alt="image" src="https://github.com/user-attachments/assets/2513ad6d-c603-49da-af74-559656b3eeae" /> |
-| Movimiento acelerado       | <img width="850" height="391" alt="image" src="https://github.com/user-attachments/assets/ab4ae997-9c47-49a4-9402-0260dc1e01c1" />        | <img width="862" height="391" alt="image" src="https://github.com/user-attachments/assets/9aa04e88-00ff-4c14-98a7-cc5472db8d07" /> |
 | Movimiento fuerte con oposición                   | <img width="859" height="391" alt="image" src="https://github.com/user-attachments/assets/c204fa2b-b28d-4d90-b56a-a35dd35ffcdc" />       | <img width="862" height="391" alt="image" src="https://github.com/user-attachments/assets/989336a7-0473-4f46-bf8f-6259bf8d8ff8" />|
 
 | Entrenamiento                                   | Densidad Espectral de Potencia (Welch) | Espectro de Frecuencias (FFT)                         |
 |----------------------------------------------|----------|---------------------------------|
 | Reposo                              | <img width="863" height="391" alt="image" src="https://github.com/user-attachments/assets/a741e1e4-d86f-45d0-802d-435acf621f8b" />| <img width="873" height="391" alt="image" src="https://github.com/user-attachments/assets/10c59fd3-8c53-442b-a690-0fa0b30d3f50" /> |
-| Movimiento leve sin oposición                        | <img width="877" height="391" alt="image" src="https://github.com/user-attachments/assets/8733ebf4-c1ed-431a-a688-7f636fb43460" /> | <img width="881" height="391" alt="image" src="https://github.com/user-attachments/assets/f03569db-0d55-448f-9c7e-0396bbf3a853" /> |
-| Movimiento acelerado       | <img width="876" height="391" alt="image" src="https://github.com/user-attachments/assets/f0f058c3-9897-4a7b-8134-85a50fbe4643" />        | <img width="881" height="391" alt="image" src="https://github.com/user-attachments/assets/c7508e1b-b9ac-4116-95da-5e094450e5e7" /> |
 | Movimiento fuerte con oposición                   | <img width="876" height="392" alt="image" src="https://github.com/user-attachments/assets/a72e87e1-6e37-48c1-bc20-15f5219cfa99" />       | <img width="890" height="392" alt="image" src="https://github.com/user-attachments/assets/857d8d64-e927-4129-8148-f0dddcf1b9e3" />|
 
 ### 5.3. EMG - Triceps
