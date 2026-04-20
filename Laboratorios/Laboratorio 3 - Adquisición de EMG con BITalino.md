@@ -47,23 +47,20 @@ A continuación, presentamos el material audiovisual del EMG en entranamiento co
 https://github.com/user-attachments/assets/28f5e9f0-a83b-4cdb-9ff1-9df40d6ecb73
 
 
-### **4.3. EMG - Triceps** <a name="id6"></a>
+### **4.3. EMG - Trapecio**
+
 Para captar la señal EMG del trapecio adecuadamente se utilizó el protocolo del sistema Bitalino. Se empleó el cable para 3 electrodos ya que el del medio se usó como electrodo de referencia. Este fue colocado sobre la apófisis mastoides la cual es una estructura ósea situada detrás del pabellón auricular, debido a que el electrodo de referencia debe posicionarse en una zona neutra, preferentemente sobre una superficie ósea, como el codo, la frente o la cresta ilíaca [7]. 
 
 Esta zona no presenta masa muscular activa en la realización de los movimientos que se requieren realizar para obtener la señal. 
 Por otro lado, los otros 2 electrodos restantes se sitúan al 50% de la línea trazada entre el acromion y la apófisis espinosa de C7, orientados en dirección paralela a dicha línea y a lo largo de las fibras musculares, con una separación de 20 mm entre ambos [8].
 
-
-<img width="654" height="476" alt="image" src="https://github.com/user-attachments/assets/581a91c7-ce45-4b64-a8a4-f2987a88e074" />
-
-
-A continuación, presentamos el material audiovisual del EMG en entranamiento con el triceps:
-
-<div align="center">
- 
+<img width="512" height="288" alt="414" src="https://github.com/user-attachments/assets/1975cc34-6cd1-4a28-a9c7-c79784bbbfb0" />
 
 
-</div>
+A continuación, presentamos el material audiovisual del EMG en entranamiento con el Trapecio:
+
+https://github.com/user-attachments/assets/761f8090-ce2d-4b69-ac3a-1d39ea013fcb
+
 
 
 ## **5. Resultados** <a name="id7"></a>
