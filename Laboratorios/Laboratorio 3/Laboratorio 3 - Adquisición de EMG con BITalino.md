@@ -185,12 +185,9 @@ En la parte en la que nos encontramos con movimiento fuerte y oposición, la se�
 
 
 ## **6.2. EMG - Triceps** <a name="id9"></a>
-
-En el caso del tríceps braquial, la dinámica espectral y de amplitud sigue un patrón similar, aunque con particularidades relacionadas con su rol como extensor primario del codo [15].
-
-- **Reposo**: Presenta baja amplitud porque las fibras musculares permanecen inactivas.
-- **Movimiento leve**: Aparecen descargas motoras aisladas de baja frecuencia y amplitud reducida, reflejando la activación de pocas unidades motoras de contracción lenta. 
-- **Movimiento fuerte con oposición**: La amplitud alcanza su máximo debido a la activación simultánea y sostenida de múltiples unidades motoras. Sim embargo, a comparación del biceps, acá notamos que el ancho del espectro de frecuencias es mayor. Lo que refleja la activación coordinada de las tres cabezas del tríceps y la necesidad de mantener fuerza sostenida para estabilizar la articulación. Esto coincide con investigaciones recientes que reportan que la amplitud y el ensanchamiento espectral del EMG en el tríceps son indicadores fiables de la carga y del reclutamiento motor durante tareas de extensión [16].
+En los registros de electromiografía superficial del músculo trapecio, la amplitud y el contenido espectral de la señal se relacionan directamente con el nivel de activación neuromuscular. Para poder procesar las señales, éstas fueron filtradas mediante la aplicación de un filtro pasa-banda de 20–450 Hz y un filtro notch a 60 Hz eliminando así la componente DC y la red eléctrica, y de esta forma poder conservar el rango fisiológicamente relevante de la EMG.
+En la condición de reposo, la señal presenta baja amplitud, lo cual es consistente con un reclutamiento mínimo de unidades motoras. En el análisis espectral (FFT y Welch), el espectro de densidad de potencia es bajo encontrándose algunos picos siempre asociados al ruido residual que se hacen acentuar por la baja energía total de la señal. Este comportamiento es característico de bajos niveles de activación muscular, por debajo del 20% de la contracción voluntaria máxima (MVIC) [12].
+Por el contrario, la condición de movimiento (oposición) muestra una clara amplitud de la señal debido a un mayor reclutamiento y sincronización de unidades motoras, aspecto que concuerda con estudios donde ejercicios como la retracción escapular son capaces de conseguir niveles de activación del trapecio moderados-altos [12].En el dominio de la frecuencia, se observa un aumento del contenido energético, concentrado principalmente en el rango característico de la EMG activa (20–150 Hz), evidenciando la participación funcional del músculo en la estabilización escapular.
   
 ## **7. Referencias** 
 
@@ -217,7 +214,7 @@ En el caso del tríceps braquial, la dinámica espectral y de amplitud sigue un 
 
 [11] R. Merletti, P. Parker, Electromyography: Physiology, Engineering, and Non-Invasive Applications, Wiley-IEEE Press, 2004.
 
-
+[12] R. A. McCabe, K. F. Orishimo, M. P. McHugh y S. J. Nicholas, “Surface electromyographic analysis of the lower trapezius muscle during exercises performed below ninety degrees of shoulder elevation in healthy subjects,” North American Journal of Sports Physical Therapy, vol. 2, no. 1, pp. 34–43, 2007.
 
 
 
