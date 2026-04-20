@@ -38,8 +38,6 @@ Cuando los electrodos están instalados, se comienza a captar la señal en OpenS
 
 Por último, se almacenan y procesan las señales obtenidas, utilizando filtros (por ejemplo, de paso-banda o eliminación de ruido) con el fin de optimizar su calidad. A continuación, se examinan las diferencias entre las señales de reposo y contracción, llevando a cabo una valoración de la actividad eléctrica y de la amplitud del músculo para su interpretación adecuada. [6]
 
-<img width="641" height="550" alt="image" src="https://github.com/user-attachments/assets/3b785460-04fd-43c8-9163-934d44616a94" />
-
 A continuación, presentamos el material audiovisual del EMG en entranamiento con el biceps braquial:
 
 
@@ -52,10 +50,6 @@ Para captar la señal EMG del trapecio adecuadamente se utilizó el protocolo de
 
 Esta zona no presenta masa muscular activa en la realización de los movimientos que se requieren realizar para obtener la señal. 
 Por otro lado, los otros 2 electrodos restantes se sitúan al 50% de la línea trazada entre el acromion y la apófisis espinosa de C7, orientados en dirección paralela a dicha línea y a lo largo de las fibras musculares, con una separación de 20 mm entre ambos [8].
-
-<img width="512" height="288" alt="414" src="https://github.com/user-attachments/assets/1975cc34-6cd1-4a28-a9c7-c79784bbbfb0" />
-
-
 
 A continuación, presentamos el material audiovisual del EMG en entranamiento con el Trapecio:
 
