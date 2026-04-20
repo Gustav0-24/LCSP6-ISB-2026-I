@@ -183,11 +183,10 @@ plt.show()
 
 ## **6.1. EMG - Biceps Braquial** <a name="id9"></a>
 
-En registros de electromiografía superficial (sEMG) del bíceps braquial, la amplitud y el espectro de la señal se relacionan directamente con el grado de activación neuromuscular [13]. Al aplicar el filtro pasabanda, eliminamos la componente DC y artefactos fuera del rango de interes. Mientras que al aplicar el filtro Notch eliminamos el ruido de red eléctrica a 60 Hz.
+En los registros de electromiografía superficial (sEMG) del bíceps braquial en los brazos, la amplitud y el contenido espectral de la señal se encuentran en relación directa con el nivel de activación neuromuscular [9]. Para su procesado, fue utilizado un filtro pasa- banda (20–450Hz), que permitió eliminar la componente DC y artefactos fuera del rango de interés, y un filtro notch a 60Hz que sirve para reducir el ruido de fondo de la red eléctrica. Para el análisis : se realizaron los 2 segmentos de señal : 1 minuto en reposo y ,1 minuto en contracción de oposición. 
+En la condición de reposo, la señal es de baja amplitud y de acuerdo con el escaso reclutamiento de fibras musculares [10].La señal, en el análisis espectral (FFT y Welch), la energía es reducida y también podemos observar algunos picos de ruido residual , los cuales se hacen más notorios debido a la baja amplitud de la señal.
+En la parte en la que nos encontramos con movimiento fuerte y oposición, la señal sí presenta una clara amplitud, ya que se están enviando muchas unidades motoras [10]. También podemos observarlo en el dominio de la frecuencia, donde se incrementa el contenido energético y se puede ver también el característico rango de la señal EMG activa, que se encuentra con frecuencia entre 20 y 150 Hz [11]. 
 
-- **Reposo**: Presenta baja amplitud porque las fibras musculares permanecen inactivas [14]. Sin embargo notamos un pico en 300 Hz en el análisis espectral y de Welch debido a componentes armónicos de la red eléctrica, esto no afecta en nada pues solo se nota debido a la baja amplitud de la señal por estan en reposo.
-- **Movimiento leve**: Aparecen descargas motoras aisladas de baja frecuencia y amplitud reducida, reflejando la activación de pocas unidades motoras de contracción lenta [14]. Por lo que la amplitud aumenta opacando la componente de ruido eléctrica a 300 Hz.
-- **Movimiento fuerte con oposición**: La amplitud alcanza su máximo debido a la activación simultánea y sostenida de múltiples unidades motoras [14].
 
 ## **6.2. EMG - Triceps** <a name="id9"></a>
 
@@ -215,6 +214,12 @@ En el caso del tríceps braquial, la dinámica espectral y de amplitud sigue un 
 [7] M. Proença and K. Mrotzeck, "BITalino (r)evolution Home Guide #1: Electromyography (EMG)," PLUX – Wireless Biosignals, S.A., Lisbon, Portugal, Tech. Rep. OD.LB.02.07, Feb. 2021.
 
 [8] H. J. Hermens, B. Freriks, C. Disselhorst-Klug, and G. Rau, "Development of recommendations for SEMG sensors and sensor placement procedures," Journal of Electromyography and Kinesiology, vol. 10, no. 5, pp. 361–374, Oct. 2000.
+
+[9] D. Farina et al., Journal of Applied Physiology, 2004.
+
+[10] S. De Luca, Journal of Applied Biomechanics, 1997.
+
+[11] R. Merletti, P. Parker, Electromyography: Physiology, Engineering, and Non-Invasive Applications, Wiley-IEEE Press, 2004.
 
 
 
