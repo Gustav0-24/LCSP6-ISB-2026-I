@@ -39,6 +39,7 @@ Cuando los electrodos están instalados, se comienza a captar la señal en OpenS
 Por último, se almacenan y procesan las señales obtenidas, utilizando filtros (por ejemplo, de paso-banda o eliminación de ruido) con el fin de optimizar su calidad. A continuación, se examinan las diferencias entre las señales de reposo y contracción, llevando a cabo una valoración de la actividad eléctrica y de la amplitud del músculo para su interpretación adecuada. [6]
 
 A continuación, presentamos el material audiovisual del EMG en entranamiento con el biceps braquial:
+<img width="641" height="550" alt="bicep" src="https://github.com/user-attachments/assets/8d5969ec-392d-4610-9bfb-399dce3cd152" />
 
 
 https://github.com/user-attachments/assets/28f5e9f0-a83b-4cdb-9ff1-9df40d6ecb73
