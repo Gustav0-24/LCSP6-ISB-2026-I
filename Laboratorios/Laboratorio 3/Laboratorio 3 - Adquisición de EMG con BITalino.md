@@ -188,8 +188,92 @@ En la parte en la que nos encontramos con movimiento fuerte y oposición, la se�
 En los registros de electromiografía superficial del músculo trapecio, la amplitud y el contenido espectral de la señal se relacionan directamente con el nivel de activación neuromuscular. Para poder procesar las señales, éstas fueron filtradas mediante la aplicación de un filtro pasa-banda de 20–450 Hz y un filtro notch a 60 Hz eliminando así la componente DC y la red eléctrica, y de esta forma poder conservar el rango fisiológicamente relevante de la EMG.
 En la condición de reposo, la señal presenta baja amplitud, lo cual es consistente con un reclutamiento mínimo de unidades motoras. En el análisis espectral (FFT y Welch), el espectro de densidad de potencia es bajo encontrándose algunos picos siempre asociados al ruido residual que se hacen acentuar por la baja energía total de la señal. Este comportamiento es característico de bajos niveles de activación muscular, por debajo del 20% de la contracción voluntaria máxima (MVIC) [12].
 Por el contrario, la condición de movimiento (oposición) muestra una clara amplitud de la señal debido a un mayor reclutamiento y sincronización de unidades motoras, aspecto que concuerda con estudios donde ejercicios como la retracción escapular son capaces de conseguir niveles de activación del trapecio moderados-altos [12].En el dominio de la frecuencia, se observa un aumento del contenido energético, concentrado principalmente en el rango característico de la EMG activa (20–150 Hz), evidenciando la participación funcional del músculo en la estabilización escapular.
-  
-## **7. Referencias** 
+
+## **7. Cuestionario**
+1. Which are the significant frequencies for EMG acquisitions? Are they the same in all body areas such as facial area?
+
+Las señales presentaron información relevante en el rango de 20 Hz a 450 Hz (intervalo
+fisiológicamente relevante de la actividad muscular), pues en este se concentra la mayor
+parte de la energía de la señal. Esto se debe a que, por ejemplo, las frecuencias más bajas
+a 20 Hz están relacionadas con ruido o artefactos de movimiento o desplazamiento de los
+electrodos y las mayores a 450 Hz pueden asociarse a ruido del sistema o interferencias.
+Por lo cual se aplica un filtro que limita el análisis a dicho intervalo.
+El comportamiento de las frecuencias no es igual en todas las regiones del cuerpo. Los
+músculos grandes, como el bíceps y el trapecio, presentan mayor amplitud y un contenido
+energético más grande debido al mayor número de fibras musculares activadas. A pesar
+que en el documento no se haya realizado la experiencia con los músculos faciales, se
+espera que al ser más pequeños y tener un patrón de activación diferente, generen señales
+con menor amplitud y con una distribución frecuencial algo distinta. Es decir, aunque el
+rango general se mantiene la distribución de energía dentro de este varía según el tipo de
+músculo.
+
+2. Which kind of filter is essential when working with EMG signals? Why do we need to apply such a filter?
+
+Para este tipo de procesamiento se requiere la aplicación de filtros para eliminar
+componentes no deseados y preservar solo la información fisiológicamente relevante. En
+este laboratorio se utilizaron tanto un filtro pasa-banda entre 20 Hz y 450 Hz como un filtro
+notch a 60 Hz.
+El filtro pasa-banda sirve para eliminar la componente DC, los artefactos de baja frecuencia
+asociados al movimiento y el ruido de alta frecuencia. Esto busca que la señal analizada
+corresponda al rango de la actividad muscular real. Por otro lado, el filtro notch tiene la fue
+aplicado para eliminar la interferencia de la red eléctrica que actúa como un ruido en 60 Hz.
+Esta interferencia puede distorsionar el análisis si no es removida. Gracias a estos filtros, la
+señal filtrada muestra una forma más definida y menos contaminada en comparación con la
+señal original.
+
+3. How does the amplitude differ in each muscular contraction? Is there a difference for body locations?
+
+La amplitud de la señal EMG varía directamente con el nivel de contracción muscular, lo
+cual se puede observar en los resultados obtenidos.
+Cuando el bíceps braquial se encuentra en reposo, la señal presenta una amplitud baja y
+relativamente estable lo cual es equivalente a indicar que existe un bajo nivel de activación
+muscular. Sin embargo, cuando se realiza el movimiento fuerte con oposición, la señal
+incrementa significativamente su amplitud donde muestra picos pronunciados y mayor
+variabilidad.
+Para el trapecio, en reposo este también muestra presenta baja amplitud pero durante la
+contracción se puede observar ráfagas de actividad de mayor magnitud. La señal tiende a
+ser más sostenida en el tiempo lo cual hace referencia a la función postural del músculo.
+Los resultados muestran que aunque ambos músculos presentan la misma tendencia en
+rasgos generales, existen diferencias en el patrón de activación. El bíceps presenta
+activaciones más intermitentes asociadas al movimiento, mientras que el trapecio muestra
+activaciones más sostenidas. Con esto, se puede decir que la amplitud no solo va a
+depender de la intensidad de contracción, sino también está relacionada con la función y
+características del músculo a evaluar.
+
+4. Show a screenshot of a relevant portion of Electromyography (EMG) data within the
+experiment proposed on Section D of a facial muscle of interest. Does this signal
+correspond to what you expected? Why? Which emotion and action did you perform
+to trigger the muscle? Which muscle did you trigger?
+
+Como se mencionó anteriormente, el experimento no se realizó para los músculos faciales,
+sin embargo, se analizaron los otros músculos ya mencionados. Dentro a lo que respecta a
+ellos, se puede decir que una porción representativa de la EMG puede observarse en las
+gráficas correspondientes al movimiento fuerte con oposición del bíceps braquial y del
+trapecio. En ellas se aprecia un incremento significativo en la amplitud que se acompaña de
+un comportamiento irregular y no periódico.
+Esto corresponde a lo esperado, ya que durante la contracción muscular se incrementa el
+reclutamiento de unidades motoras y se debe generar una señal de mayor amplitud con
+mayor contenido energético. La naturaleza no periódica de la señal se debe a que las fibras
+de los músculos no se sincronizan para activarse.
+El comportamiento observado en los músculos analizados es equivalente al esperado en
+músculos como los faciales. Por ejemplo, al realizar una acción como sonreír que activa el
+músculo cigomático se esperaría observar un incremento en la amplitud de la señal y un
+patrón no periódico similar.
+
+5. To the best of your knowledge, does the EMG amplitude equal to the amount of force
+that you have generated with your muscle?
+
+La amplitud de la señal EMG no es equivalente a la fuerza generada por el músculo pero si
+existe una relación entre ambas variables. El aumento en la amplitud suele indicar un mayor
+nivel de activación muscular lo cual suele conllevar un incremento en la fuerza.
+Sin embargo, la relación no es lineal ni directa porque la señal depende de múltiples
+variables como la frecuencia de activación, la posición de los electrodos, la impedancia de
+la piel, el tipo de músculo, etc. En este documento se observó que la amplitud aumenta
+considerablemente durante la contracción con oposición en comparación con el reposo. Es
+así como la señal EMG debe interpretarse como una medida de la actividad eléctrica
+muscular y no como una medición directa de la fuerza generada.
+
+## **8. Referencias** 
 
 [1]	Clínica Universidad de Navarra, “Electromiografía y electroneurografía,” Clínica Universidad	de	Navarra.	[En	línea].	Disponible	en: https://www.cun.es/enfermedades-tratamientos/pruebas-diagnosticas/electromiografia-electr oneurografia
 
