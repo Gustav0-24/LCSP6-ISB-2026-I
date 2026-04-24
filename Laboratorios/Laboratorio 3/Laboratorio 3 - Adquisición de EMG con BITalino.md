@@ -190,7 +190,7 @@ En la condición de reposo, la señal presenta baja amplitud, lo cual es consist
 Por el contrario, la condición de movimiento (oposición) muestra una clara amplitud de la señal debido a un mayor reclutamiento y sincronización de unidades motoras, aspecto que concuerda con estudios donde ejercicios como la retracción escapular son capaces de conseguir niveles de activación del trapecio moderados-altos [12].En el dominio de la frecuencia, se observa un aumento del contenido energético, concentrado principalmente en el rango característico de la EMG activa (20–150 Hz), evidenciando la participación funcional del músculo en la estabilización escapular.
 
 ## **7. Cuestionario**
-1. Which are the significant frequencies for EMG acquisitions? Are they the same in all body areas such as facial area?
+### 1. Which are the significant frequencies for EMG acquisitions? Are they the same in all body areas such as facial area?
 
 Las señales presentaron información relevante en el rango de 20 Hz a 450 Hz (intervalo
 fisiológicamente relevante de la actividad muscular), pues en este se concentra la mayor
@@ -207,7 +207,7 @@ con menor amplitud y con una distribución frecuencial algo distinta. Es decir, 
 rango general se mantiene la distribución de energía dentro de este varía según el tipo de
 músculo.
 
-2. Which kind of filter is essential when working with EMG signals? Why do we need to apply such a filter?
+### 2. Which kind of filter is essential when working with EMG signals? Why do we need to apply such a filter?
 
 Para este tipo de procesamiento se requiere la aplicación de filtros para eliminar
 componentes no deseados y preservar solo la información fisiológicamente relevante. En
@@ -221,7 +221,7 @@ Esta interferencia puede distorsionar el análisis si no es removida. Gracias a 
 señal filtrada muestra una forma más definida y menos contaminada en comparación con la
 señal original.
 
-3. How does the amplitude differ in each muscular contraction? Is there a difference for body locations?
+### 3. How does the amplitude differ in each muscular contraction? Is there a difference for body locations?
 
 La amplitud de la señal EMG varía directamente con el nivel de contracción muscular, lo
 cual se puede observar en los resultados obtenidos.
@@ -240,7 +240,7 @@ activaciones más sostenidas. Con esto, se puede decir que la amplitud no solo v
 depender de la intensidad de contracción, sino también está relacionada con la función y
 características del músculo a evaluar.
 
-4. Show a screenshot of a relevant portion of Electromyography (EMG) data within the
+### 4. Show a screenshot of a relevant portion of Electromyography (EMG) data within the
 experiment proposed on Section D of a facial muscle of interest. Does this signal
 correspond to what you expected? Why? Which emotion and action did you perform
 to trigger the muscle? Which muscle did you trigger?
@@ -260,7 +260,7 @@ músculos como los faciales. Por ejemplo, al realizar una acción como sonreír 
 músculo cigomático se esperaría observar un incremento en la amplitud de la señal y un
 patrón no periódico similar.
 
-5. To the best of your knowledge, does the EMG amplitude equal to the amount of force
+### 5. To the best of your knowledge, does the EMG amplitude equal to the amount of force
 that you have generated with your muscle?
 
 La amplitud de la señal EMG no es equivalente a la fuerza generada por el músculo pero si
