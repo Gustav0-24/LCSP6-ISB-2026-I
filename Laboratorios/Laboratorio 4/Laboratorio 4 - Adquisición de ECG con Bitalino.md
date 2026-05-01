@@ -71,6 +71,7 @@ A continuación, presentamos el material audiovisual tomado de la prueba del ECG
 | <video src="https://github.com/user-attachments/assets/c87118a6-4fe0-4e38-ad03-b1fcf1e8c033" controls></video> |
 
 
+</div>
 
 
 ## 5. Procesamiento de datos <a name="procesamiento-de-datos"></a>
