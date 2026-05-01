@@ -111,25 +111,25 @@ Se realizó el ploteo de las señales crudas y filtradas, así como de sus respe
 ### 5.1 Reposo Basal 
 | Tipo                 | Señal original | Señal filtrada    |                    
 |-------------------------|----------|---------------------------------|
-|Ploteo   |<img width="1176" height="393" alt="image" src="https://github.com/user-attachments/assets/b2c2dca0-7358-46a5-aa63-d6ce0e82821d" />| <img width="1176" height="393" alt="image" src="https://github.com/user-attachments/assets/39f6cdd8-1efd-4e27-b2c4-591c0947b314" />|
-|  FFT  |<img width="890" height="393" alt="image" src="https://github.com/user-attachments/assets/bbd23322-c2ed-42d3-a326-d5831dd23b1b" />| <img width="890" height="393" alt="image" src="https://github.com/user-attachments/assets/783de173-f79f-4697-a5a2-5a9d56381e62" />|
-|  FFT [dB]    |<img width="875" height="393" alt="image" src="https://github.com/user-attachments/assets/9b18516b-4030-44d6-bf95-e41b87800e3f" />| <img width="875" height="393" alt="image" src="https://github.com/user-attachments/assets/77f01de9-a001-482e-bf06-a2213c149ce3" />|
+|Ploteo   |<img width="700" height="235" alt="Captura de pantalla 2026-05-01 172021" src="https://github.com/user-attachments/assets/ec059952-142f-4f60-afde-c78ff03b0b65" />|<img width="1045" height="332" alt="Captura de pantalla 2026-05-01 172234" src="https://github.com/user-attachments/assets/30348cad-f635-47ea-b566-3a75fdaa3f27" />|
+|  FFT  |<img width="1098" height="487" alt="Captura de pantalla 2026-05-01 172453" src="https://github.com/user-attachments/assets/44a28499-1428-4faa-b6e9-daf0722e2ddf" />| <img width="1103" height="477" alt="Captura de pantalla 2026-05-01 172543" src="https://github.com/user-attachments/assets/1a2898c7-c23c-4f06-8bbd-a553929de358" />|
+|  FFT [dB]    |<img width="1112" height="488" alt="Captura de pantalla 2026-05-01 172613" src="https://github.com/user-attachments/assets/04216147-a66a-4607-bfab-498a6e8128e0" />|<img width="1127" height="512" alt="Captura de pantalla 2026-05-01 172638" src="https://github.com/user-attachments/assets/c7a9b919-8b22-4cf7-8ef2-f38e6c9c0f5c" />|
 
 ### 5.2 Mantenimiento de la respiracion por 10 segundos
 
 **Toma 1:**
 | Tipo                 | Señal original | Señal filtrada                         |
 |-------------------------|----------|---------------------------------|
-|Ploteo  |<img width="1181" height="393" alt="image" src="https://github.com/user-attachments/assets/e6f90235-bfc6-4cf1-937f-dd2064d9f32d" />|<img width="1181" height="393" alt="image" src="https://github.com/user-attachments/assets/46e23738-7fe3-4ea2-90ab-fede75e82290" />|
-| FFT    |<img width="890" height="393" alt="image" src="https://github.com/user-attachments/assets/e25e1ef1-6bc0-4085-9969-1b48682d8b38" />| <img width="890" height="393" alt="image" src="https://github.com/user-attachments/assets/95174037-8dc7-4e58-a64f-1e0705a40add" />|
-|  FFT [dB]    |<img width="875" height="393" alt="image" src="https://github.com/user-attachments/assets/4478e1f3-8077-4925-8150-8e3f2ec0502b" />| <img width="875" height="393" alt="image" src="https://github.com/user-attachments/assets/c4ea490d-836e-4337-85dc-2bc5826e72b3" /> |
+|Ploteo  |<img width="1117" height="362" alt="Captura de pantalla 2026-05-01 172759" src="https://github.com/user-attachments/assets/fceba875-1bd6-465c-a423-02f3c18dadf4" />|<img width="1113" height="358" alt="Captura de pantalla 2026-05-01 173128" src="https://github.com/user-attachments/assets/36a1ee0f-bec8-4c6f-a8dc-614d8a465b88" />|
+| FFT    |<img width="1142" height="487" alt="Captura de pantalla 2026-05-01 172842" src="https://github.com/user-attachments/assets/a4ced52a-09dc-465f-a957-293b4ce7d55f" />| <img width="1152" height="482" alt="Captura de pantalla 2026-05-01 173139" src="https://github.com/user-attachments/assets/d5c7f026-2898-4f68-b3aa-083ac6034df1" />|
+|  FFT [dB]    |<img width="1151" height="491" alt="Captura de pantalla 2026-05-01 173006" src="https://github.com/user-attachments/assets/f6e5f0c9-fd8c-4b13-8d13-1c94fd3d8b8e" />| <img width="1108" height="485" alt="Captura de pantalla 2026-05-01 173152" src="https://github.com/user-attachments/assets/05262476-1bca-44b9-a258-511f8ae8c624" />|
 
 **Toma 2:**
 | Tipo                 | Señal original | Señal filtrada                         |
 |-------------------------|----------|---------------------------------|
-|Ploteo  | <img width="1181" height="393" alt="image" src="https://github.com/user-attachments/assets/133ee2e6-3d0c-49bc-b48b-367ece025ded" />|<img width="1181" height="393" alt="image" src="https://github.com/user-attachments/assets/09a252a1-3959-40be-bc9a-c24b6efad8cf" />|
-| FFT    |<img width="890" height="393" alt="image" src="https://github.com/user-attachments/assets/b4f3533f-bf81-41a5-8950-318bcce70978" />|<img width="890" height="393" alt="image" src="https://github.com/user-attachments/assets/40d73983-a147-4585-a7f9-0cc015ec6ca3" />|
-|  FFT [dB] | <img width="875" height="393" alt="image" src="https://github.com/user-attachments/assets/75f320db-90cb-4e0f-86ce-446040a534ca" />|<img width="875" height="393" alt="image" src="https://github.com/user-attachments/assets/579310e4-d6b1-4fd4-ab3e-85db13bc43db" />|
+|Ploteo  | <img width="1111" height="373" alt="Captura de pantalla 2026-05-01 173405" src="https://github.com/user-attachments/assets/cb07e4f4-0ecd-4f08-b8cd-308c71832aa1" />|<img width="1138" height="402" alt="Captura de pantalla 2026-05-01 173605" src="https://github.com/user-attachments/assets/20a17bac-f5f0-4813-83da-d7629840daec" />|
+| FFT    |<img width="1117" height="490" alt="Captura de pantalla 2026-05-01 173420" src="https://github.com/user-attachments/assets/7c5e846e-b644-4c68-bad7-159ba75010be" />|<img width="1131" height="497" alt="Captura de pantalla 2026-05-01 173616" src="https://github.com/user-attachments/assets/8001a212-a51e-452f-910a-1607a6a219bd" />|
+|  FFT [dB] | <img width="1162" height="498" alt="Captura de pantalla 2026-05-01 173433" src="https://github.com/user-attachments/assets/7a54d3ab-7106-4982-bcce-29fa308b67f6" />|<img width="1138" height="500" alt="Captura de pantalla 2026-05-01 173707" src="https://github.com/user-attachments/assets/7b3642aa-f289-43fe-acef-18dd56d8ca80" />|
 
 **Toma 3:**
 | Tipo                 | Señal original | Señal filtrada                         |
