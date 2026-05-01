@@ -42,13 +42,34 @@ A continuación, presentamos el material audiovisual tomado de la prueba del ECG
 
 **1. Reposo**
 
-https://github.com/user-attachments/assets/28f5e9f0-a83b-4cdb-9ff1-9df40d6ecb73
+<div align="center">
+
+| **Toma en reposo** |
+|:----------------------:|
+| <video src="https://github.com/user-attachments/assets/2fe97060-3664-4a90-8fc4-54cd0fdfc871" controls></video> |
+
+</div>
+
 
 **2. Respiracion**
 
+<div align="center">
+ 
+| **Toma 1** | **Toma 2** | **Toma 3** |
+|:-----------------------:|:--------------------------:|:--------------------------:|
+| <video src="https://github.com/user-attachments/assets/c5b884d1-5d74-4a28-a469-7fa17b167426" controls></video> | <video src="https://github.com/user-attachments/assets/df090e1b-4910-4459-b294-98deaa62d301" controls></video> | <video src="https://github.com/user-attachments/assets/d6b1aafb-9f1e-40aa-adf7-4eebcfd8355e" controls></video> |
+
+</div>
 
 
 **3. Actividad Física**
+
+<div align="center">
+
+| **Toma después de la Actividad Física** |
+|:---------------------------:|
+| <video src="https://github.com/user-attachments/assets/c87118a6-4fe0-4e38-ad03-b1fcf1e8c033" controls></video> |
+
 
 
 
