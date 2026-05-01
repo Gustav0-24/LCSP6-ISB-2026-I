@@ -1,14 +1,15 @@
-# **LABORATORIO 3: Uso de BITalino para EMG**
+# **LABORATORIO 4: Uso de BITalino para ECG**
 
 ## **1. Introducción**
 
-La electromiografía es una técnica utilizada para evaluar la actividad eléctrica de los músculos de manera no invasiva. Tiene como fundamento el reconocimiento de los potenciales eléctricos que son producidos por las fibras musculares durante su activación y por medio de ella se puede obtener información sobre la intensidad, duración y patrón de activación muscular. [1] Es importante mencionar que las señales obtenidas presentan amplitudes bajas, por lo cual se necesita acondicionarla para su lectura y análisis. Es por ello que se pueden utilizar sistemas como el Bitalino Revolution, pues permite la lectura por medio de electrodos e integra tanto la etapa de amplificación, digitalización, visualización y almacenamiento a través del software Open Signals. [2]
+La electrocardiografía (ECG) es una técnica no invasiva ampliamente utilizada para registrar la actividad eléctrica del corazón mediante sensores colocados en la superficie corporal. Esta señal se genera como consecuencia de los procesos de despolarización y repolarización del músculo cardíaco, los cuales permiten la contracción coordinada del corazón y, por tanto, el adecuado bombeo de sangre hacia los diferentes tejidos del organismo.
 
-En este trabajo se analizaron las señales EMG de los músculo bicep braquial, y el trapecio superior. El primero se encarga principalmente de la flexión del codo y la potente supinación del antebrazo, ademas de la elevacion del hombro. [3], mientras que el trapecio superior se encuentra localizado en la región dorsal y cervical y permite acciones como la elevación de los hombros y la estabilización de la escápula, lo cual resulta fundamental en movimientos posturales y de carga. [4]
+El origen de esta actividad eléctrica se encuentra en el nodo sinoauricular (SA), considerado el marcapasos natural del corazón, desde donde se inician los potenciales de acción que se propagan a través del sistema de conducción cardíaco. Esta propagación eléctrica da lugar a patrones característicos en el ECG, como la onda P, el complejo QRS y la onda T, los cuales representan las distintas fases del ciclo cardíaco y permiten analizar el funcionamiento del corazón en condiciones normales y alteradas .
 
-El estudio de ambos músculos es significativo debido a los roles que cumplen en las funciones biomecánicas y sus respectivos niveles de activación, lo que permite realizar un análisis comparativo de cómo varían las señales electromiográficas en distintas regiones del cuerpo. El análisis en condiciones de reposo y contracción muscular puede proporcionar información sobre la relación entre la actividad eléctrica y la función muscular.
+El análisis de la señal electrocardiográfica no solo permite determinar parámetros básicos como la frecuencia cardíaca, sino también evaluar la respuesta del sistema cardiovascular frente a distintos estímulos fisiológicos. Factores como la respiración, el nivel de actividad física y los cambios en la demanda metabólica del organismo pueden generar variaciones significativas en la dinámica cardíaca, reflejándose en modificaciones en la frecuencia y en la morfología del ECG .
 
-De esta manera, en el presente documento se detallarán la adquisición y análisis de señales EMG de los músculos biceps braquial y trapecio superior utilizando un sistema de adquisición biomédica para observar el comportamiento de la actividad muscular en distintos estados de activación y en diferentes grupos musculares.
+En este sentido, el estudio del ECG en diferentes condiciones experimentales constituye una herramienta fundamental para comprender la adaptación del sistema cardiovascular. En el presente trabajo, se analizaron registros electrocardiográficos obtenidos en distintas fases: reposo, hiperventilación, ejercicio físico y recuperación. Estas condiciones permiten observar cómo el corazón responde a cambios en la oxigenación y en la demanda energética, evidenciando variaciones en la actividad eléctrica cardíaca
+
 
 
 
@@ -24,281 +25,127 @@ De esta manera, en el presente documento se detallarán la adquisición y análi
 | Laptop                                       | 1        | ![laptop](https://github.com/user-attachments/assets/c1394461-1a65-41fc-b6f4-8d8ae5b3b37b) |
 
 ## **4. Procedimiento** 
-1. Se debe seleccionar el músculo a evaluar y limpiar la zona. De ser posible seleccionar una zona sin vellos para mejorar la impedancia de los electródos.
-2. Colocar 2 electrodos (Positivo y Negativo) en el músculo objetivo y un tercer electrodo de referencia sobre una región electricamente muerta. En el presente laboratorio se eligio poner el electrodo en la cresta hiliaca (hueso de la cadera).
-3. Sincronizar mediante protocolo Bluetooth el BITalino y la computadora con el software previamente instalado
-4. Realizar las mediciones con el software de 3 diferentes ejercicios para cada músculo: en reposo, fuerza leve sin oposición y fuerza con oposición.
+1. Seleccionar la zona de medición (región cardíaca) y limpiar la piel con alcohol; de preferencia, evitar áreas con vello para mejorar la conductividad de los electrodos.
+2. Colocar 3 electrodos (positivo, negativo y referencia) según la derivación de Einthoven elegida; por ejemplo, para Lead I: positivo en la clavícula izquierda, negativo en la clavícula derecha y referencia en la cresta ilíaca.
+3. Conectar el sensor ECG al BITalino y sincronizar el dispositivo con la computadora mediante Bluetooth utilizando el software OpenSignals previamente instalado.
+4. Realizar la adquisición de datos en distintas condiciones: en reposo (línea base), durante control respiratorio (inhalación y exhalación) y después de actividad física, registrando las variaciones de la señal ECG en cada caso.
 
-### **4.1. EMG - Biceps Braquial**
-En primer lugar, se ajusta el sistema de adquisición mediante el software OpenSignals Revolution y el dispositivo BITalino. Se comprueba que la conexión y configuración del sensor EMG sean las adecuadas para obtener datos en tiempo real.
+### 4.1. ECG 
 
-A continuación, se prepara al sujeto. Para disminuir la impedancia y optimizar la calidad de la señal, se limpia el área del bíceps braquial con alcohol. Después, se colocan los electrodos de superficie: dos electrodos activos se sitúan en la parte muscular del bíceps braquial (siguiendo el sentido de las fibras musculares) y uno de referencia, en un sitio óseo próximo, como el codo. [5] 
+En primer lugar, se configura el sistema de adquisición utilizando el software OpenSignals (r)evolution junto con el dispositivo BITalino, verificando que la conexión Bluetooth y el sensor ECG funcionen correctamente para la visualización de la señal en tiempo real.
+A continuación, se prepara al sujeto con el fin de mejorar la calidad de la señal. Para ello, se limpia la piel con alcohol en las zonas donde se colocarán los electrodos, reduciendo la impedancia. Luego, se colocan tres electrodos de superficie siguiendo una derivación de Einthoven (por ejemplo, Lead I): el electrodo positivo en la clavícula izquierda, el negativo en la clavícula derecha y el electrodo de referencia en una zona ósea como la cresta ilíaca.
+Una vez colocados los electrodos, se inicia la adquisición de la señal ECG en el software. En primer lugar, se registra una línea base en reposo durante aproximadamente 30 segundos, procurando que el sujeto esté relajado y con respiración normal. Posteriormente, se realizan pruebas controladas de respiración (inhalación, retención y exhalación) para observar la variación de la señal. Luego, se incluye una fase de actividad física (por ejemplo, ejercicios como burpees) con el objetivo de analizar los cambios en la frecuencia cardíaca antes, durante y después del esfuerzo.
+Finalmente, se detiene la adquisición y se almacenan los datos obtenidos. Las señales registradas pueden ser procesadas posteriormente mediante filtrado para reducir el ruido y facilitar su análisis. Se comparan las variaciones entre las condiciones de reposo, respiración controlada y actividad física, evaluando parámetros como la frecuencia cardíaca y la morfología de la señal ECG para su correcta interpretación.
 
-Cuando los electrodos están instalados, se comienza a captar la señal en OpenSignals. Para empezar, se registra la actividad muscular en reposo durante algunos segundos, garantizando que el músculo esté totalmente relajado. A continuación, el individuo debe realizar una contracción del bíceps (como por ejemplo, flexionando el codo contra resistencia) en un intervalo controlado y se registra la señal correspondiente. Este procedimiento tiene la posibilidad de repetirse varias veces para conseguir datos coherentes.
+A continuación, presentamos el material audiovisual tomado de la prueba del ECG:
 
-Por último, se almacenan y procesan las señales obtenidas, utilizando filtros (por ejemplo, de paso-banda o eliminación de ruido) con el fin de optimizar su calidad. A continuación, se examinan las diferencias entre las señales de reposo y contracción, llevando a cabo una valoración de la actividad eléctrica y de la amplitud del músculo para su interpretación adecuada. [6]
 
-A continuación, presentamos el material audiovisual del EMG en entranamiento con el biceps braquial:
-<img width="641" height="550" alt="bicep" src="https://github.com/user-attachments/assets/8d5969ec-392d-4610-9bfb-399dce3cd152" />
-
+**1. Reposo**
 
 https://github.com/user-attachments/assets/28f5e9f0-a83b-4cdb-9ff1-9df40d6ecb73
 
-
-### **4.3. EMG - Trapecio**
-
-Para captar la señal EMG del trapecio adecuadamente se utilizó el protocolo del sistema Bitalino. Se empleó el cable para 3 electrodos ya que el del medio se usó como electrodo de referencia. Este fue colocado sobre la apófisis mastoides la cual es una estructura ósea situada detrás del pabellón auricular, debido a que el electrodo de referencia debe posicionarse en una zona neutra, preferentemente sobre una superficie ósea, como el codo, la frente o la cresta ilíaca [7]. 
-
-Esta zona no presenta masa muscular activa en la realización de los movimientos que se requieren realizar para obtener la señal. 
-Por otro lado, los otros 2 electrodos restantes se sitúan al 50% de la línea trazada entre el acromion y la apófisis espinosa de C7, orientados en dirección paralela a dicha línea y a lo largo de las fibras musculares, con una separación de 20 mm entre ambos [8].
-
-A continuación, presentamos el material audiovisual del EMG en entranamiento con el Trapecio:
+**2. Respiracion**
 
 
 
-https://github.com/user-attachments/assets/761f8090-ce2d-4b69-ac3a-1d39ea013fcb
+**3. Actividad Física**
 
 
 
-## **5. Resultados** <a name="id7"></a>
+## 5. Procesamiento de datos <a name="procesamiento-de-datos"></a>
+Para los resultados haremos uso del archivo "CodigosECG.ipynb" que se encuentra en el mismo folder. El cual contiene todos los codigos hechos para la visualización de las gráficas de las señales adquiridas. Asi como su respectivo filtrado y análisis de frecuencia.
 
-Para los resultados haremos uso del archivo "CodigosEMG.ipynb" que se encuentra en el mismo folder. El cual contiene todos los codigos hechos para la visualización de las gráficas de las señales adquiridas. Asi como su respectivo filtrado y análisis de frecuencia.
-
-### **5.1. Procesamiento y visualización de gráficas con python**
-### a) Importar librerias
-Importamos las librerias a utilizar que son comunes para el codigo de cada señal graficada.
+### a) Importar Librerías  <a name="importar-librerías"></a>
+Se importan las librerías a utilizar para graficar las señales.
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
-from scipy.signal import butter, filtfilt, welch, iirnotch
+from scipy.signal import butter, filtfilt, iirnotch
 ```
-### b) Cargar el archivo
-Cargamos el archivo .txt según la ruta en la que este almacenada en el ordenador local (Se muestra el ejemplo para la señal del músculo Biceps Braquial en reposo)
+### b) Cargar archivos  <a name="cargar-archivos"></a>
+Se cargan los archivos .txt que contienen las señales obtenidas del software OpenSignals.
 ```python
-ruta = r"D:\IB PUCP - UPCH 2022\7mo Semestre\Introducción a las Señales Biomédicas\Lab 3 - Adquisicion EMG\pythoooooon\Biceps\Reposo\reposo1_biceps.txt"
-datos = np.loadtxt(ruta, comments="#")
-emg = datos[:, -1]  # señal EMG en la última columna
+#Abrimos el archivo sin incluir las filas que inician con"#"
+with open("reposo1.txt", "r") as f:
+    lineas = f.readlines()
+
+datos_limpios = [line.strip().split() for line in lineas if not line.startswith("#")]
+datos = np.array(datos_limpios, dtype=float)
 ```
-### c) Definimos variables de la señal para la visualización
-```python
-fs = 1000  # frecuencia de muestreo
-tiempo = np.linspace(0, len(emg) / fs, len(emg))
-```
-### d) Graficamos la señal original
-```python
-plt.figure(figsize=(10, 4))
-plt.plot(tiempo, emg, color="#00008B", linewidth=0.4)
-plt.title("Señal EMG original - Biceps reposo")
-plt.xlabel("Tiempo (s)")
-plt.ylabel("Amplitud (uV)")
-plt.grid()
-plt.show()
-```
-### e) Filtramos la señal
-```python
-# Función filtro pasa-banda
-def filtro_pasabanda(señal, f_muestreo, frec_baja=20.0, frec_alta=450.0, orden=4):
-    nyquist = 0.5 * f_muestreo  
-    bajo = frec_baja / nyquist
-    alto = frec_alta / nyquist
-    b, a = butter(orden, [bajo, alto], btype="band")
-    return filtfilt(b, a, señal)
 
-# Función filtro notch (60 Hz)
-def filtro_notch(señal, f_muestreo, frec_notch=60.0, Q=30.0):
-    """
-    frec_notch = frecuencia a eliminar (Hz)
-    Q = factor de calidad (entre más alto, más selectivo es el notch)
-    """
-    nyquist = 0.5 * f_muestreo
-    w0 = frec_notch / nyquist
-    b, a = iirnotch(w0, Q)
-    return filtfilt(b, a, señal)
-# Aplicacion de filtros
-emg_filtrada = filtro_pasabanda(emg, fs)
-emg_filtrada = filtro_notch(emg_filtrada, fs, frec_notch=60.0, Q=30.0)
-```
-### f) Graficamos la señal filtrada
-```python
-plt.figure(figsize=(10, 4))
-plt.plot(tiempo, emg_filtrada, color="#006400", linewidth=0.4)
-plt.title("Señal EMG filtrada - Biceps reposo")
-plt.xlabel("Tiempo (s)")
-plt.ylabel("Amplitud (uV)")
-plt.grid()
-plt.show()
-```
-### g) Graficamos el Periodograma de Welch
-```python
-frecs, psd = welch(emg_filtrada, fs, nperseg=1024)
-plt.figure(figsize=(10, 4))
-plt.semilogy(frecs, psd, color="purple")
-plt.title("Densidad espectral de potencia (Welch) - Biceps reposo")
-plt.xlabel("Frecuencia (Hz)")
-plt.ylabel("PSD (uV²/Hz)")
-plt.grid()
-plt.show()
-```
-### h) Graficamos el Espectro de Frecuencias
-```python
-fft_vals = np.fft.rfft(emg_filtrada)
-fft_freqs = np.fft.rfftfreq(len(emg_filtrada), 1/fs)
-plt.figure(figsize=(10, 4))
-plt.plot(fft_freqs, np.abs(fft_vals), color="darkred", linewidth=0.6)
-plt.title("Espectro de frecuencias (FFT) - Biceps reposo")
-plt.xlabel("Frecuencia (Hz)")
-plt.ylabel("Amplitud")
-plt.xlim(0, 500)
-plt.grid()
-plt.show()
-```
-### **5.2. EMG - Biceps Braquial**
+### c) Aplicación de filtros <a name="aplicación-de-filtros"></a>
+El ECG es una señal bioeléctrica débil, muy suceptible al ruido de diversas fuentes, tanto internas como externas (al cuerpo del paciente). Los movimientos, las señales eléctricas de otros músculos, la mala conexión de electrodos pueden generar una lectura de ECG borrosa, por lo que es necesario aplicar un filtrado para mitigar esa interferencia[5]. Para este laboratorio se aplicaron los siguientes filtros:
+- **Pasa-banda (0.5 Hz-40 Hz):** Filtrado suave para entornos ruidosos. Se usa principalmente para detectar la frecuencia cardiaca[6].
+- **Filtro Notch:** Reduce la interferencia de la red eléctrica.
+Gracias a este proceso de filtrado se logró resaltar mejor las ondas características del ECG, especialmente el complejo QRS y las ondas P y T.
+<p align="center">
+<img width="1226" height="458" alt="image" src="https://github.com/user-attachments/assets/6de69508-ae97-4735-96c8-4afbec3bcf4a" />
+<em>Figura 5. Señales ECG con  intervalos y segmentos .</em>
+</p>
 
-| Entrenamiento                                   | Señal original | Señal filtrada                         |
-|----------------------------------------------|----------|---------------------------------|
-| Reposo                              | <img width="841" height="383" alt="EMG_og" src="https://github.com/user-attachments/assets/35c41ad0-377f-4fc8-9865-7a2827d5cbc2" />| <img width="827" height="362" alt="EMG_filt" src="https://github.com/user-attachments/assets/7c6e08eb-7d03-4134-b5b8-94e549efff04" /> |
-| Movimiento fuerte con oposición                   | <img width="857" height="388" alt="EMGo_og" src="https://github.com/user-attachments/assets/9bd445cc-f254-41d3-b82e-476c9cddb7ac" /> | <img width="868" height="401" alt="EMGo_filt" src="https://github.com/user-attachments/assets/ed99c287-8493-4b2c-a98c-3ef9a3727b5d" />|
+### d) Ploteo de las señales <a name="visualización"></a>
+Se realizó el ploteo de las señales crudas y filtradas, así como de sus respectivos FFT en amplitud y dB.
 
-| Entrenamiento                                   | Densidad Espectral de Potencia (Welch) | Espectro de Frecuencias (FFT)                         |
-|----------------------------------------------|----------|---------------------------------|
-| Reposo                              | <img width="810" height="348" alt="Dens" src="https://github.com/user-attachments/assets/347cd598-1d3c-47b6-854f-45b4fcfeb759" />| <img width="773" height="322" alt="fft" src="https://github.com/user-attachments/assets/d39f2a2e-5bad-4c5c-8465-b9c6401bd2ad" />|
-| Movimiento fuerte con oposición                   | <img width="797" height="341" alt="Dens_o" src="https://github.com/user-attachments/assets/4731b0fb-df65-4209-99c8-18df07b4d206" />|<img width="797" height="365" alt="fft_o" src="https://github.com/user-attachments/assets/70900862-d774-4c09-933a-92ff8005b62d" />|
+### 5.1 Reposo Basal 
+| Tipo                 | Señal original | Señal filtrada    |                    
+|-------------------------|----------|---------------------------------|
+|Ploteo   |<img width="1176" height="393" alt="image" src="https://github.com/user-attachments/assets/b2c2dca0-7358-46a5-aa63-d6ce0e82821d" />| <img width="1176" height="393" alt="image" src="https://github.com/user-attachments/assets/39f6cdd8-1efd-4e27-b2c4-591c0947b314" />|
+|  FFT  |<img width="890" height="393" alt="image" src="https://github.com/user-attachments/assets/bbd23322-c2ed-42d3-a326-d5831dd23b1b" />| <img width="890" height="393" alt="image" src="https://github.com/user-attachments/assets/783de173-f79f-4697-a5a2-5a9d56381e62" />|
+|  FFT [dB]    |<img width="875" height="393" alt="image" src="https://github.com/user-attachments/assets/9b18516b-4030-44d6-bf95-e41b87800e3f" />| <img width="875" height="393" alt="image" src="https://github.com/user-attachments/assets/77f01de9-a001-482e-bf06-a2213c149ce3" />|
 
-### **5.3. EMG - Trapecio**
-| Entrenamiento                                   | Señal original | Señal filtrada                         |
-|----------------------------------------------|----------|---------------------------------|
-| Reposo                              |<img width="716" height="432" alt="Captura de pantalla 2026-04-19 235204" src="https://github.com/user-attachments/assets/5b93cef2-d5d6-41db-b20f-fb6e5b851713" /> | <img width="737" height="432" alt="Captura de pantalla 2026-04-19 235220" src="https://github.com/user-attachments/assets/7965bdbb-e82d-4f5b-b552-c19f3001eb29" />|
-| Movimiento fuerte con oposición                   | <img width="677" height="391" alt="Captura de pantalla 2026-04-19 235453" src="https://github.com/user-attachments/assets/668cf878-4bec-4a8b-afcd-2e7f7aed42f3" />| <img width="662" height="398" alt="Captura de pantalla 2026-04-19 235504" src="https://github.com/user-attachments/assets/2c8afe57-4deb-49a1-bd19-41c8e4633741" />|
+### 5.2 Mantenimiento de la respiracion por 10 segundos
 
-| Entrenamiento                                   | Densidad Espectral de Potencia (Welch) | Espectro de Frecuencias (FFT)                         |
-|----------------------------------------------|----------|---------------------------------|
-| Reposo                              |<img width="732" height="423" alt="Captura de pantalla 2026-04-19 235331" src="https://github.com/user-attachments/assets/c5d7f33e-2005-4407-af85-9b0c8b202872" />| <img width="762" height="447" alt="Captura de pantalla 2026-04-19 235342" src="https://github.com/user-attachments/assets/81e9a6b1-9526-4c99-99ee-c5ac53b024c3" />|
-| Movimiento fuerte con oposición                   | <img width="682" height="393" alt="Captura de pantalla 2026-04-19 235516" src="https://github.com/user-attachments/assets/6cd60146-ce3f-44e7-8419-8039a61cafde" />| <img width="683" height="403" alt="Captura de pantalla 2026-04-19 235528" src="https://github.com/user-attachments/assets/546a8bc2-84ec-41ae-a8e6-a9551e270d02" />|
+**Toma 1:**
+| Tipo                 | Señal original | Señal filtrada                         |
+|-------------------------|----------|---------------------------------|
+|Ploteo  |<img width="1181" height="393" alt="image" src="https://github.com/user-attachments/assets/e6f90235-bfc6-4cf1-937f-dd2064d9f32d" />|<img width="1181" height="393" alt="image" src="https://github.com/user-attachments/assets/46e23738-7fe3-4ea2-90ab-fede75e82290" />|
+| FFT    |<img width="890" height="393" alt="image" src="https://github.com/user-attachments/assets/e25e1ef1-6bc0-4085-9969-1b48682d8b38" />| <img width="890" height="393" alt="image" src="https://github.com/user-attachments/assets/95174037-8dc7-4e58-a64f-1e0705a40add" />|
+|  FFT [dB]    |<img width="875" height="393" alt="image" src="https://github.com/user-attachments/assets/4478e1f3-8077-4925-8150-8e3f2ec0502b" />| <img width="875" height="393" alt="image" src="https://github.com/user-attachments/assets/c4ea490d-836e-4337-85dc-2bc5826e72b3" /> |
 
-## **6. Análisis y discusión** <a name="id9"></a>
+**Toma 2:**
+| Tipo                 | Señal original | Señal filtrada                         |
+|-------------------------|----------|---------------------------------|
+|Ploteo  | <img width="1181" height="393" alt="image" src="https://github.com/user-attachments/assets/133ee2e6-3d0c-49bc-b48b-367ece025ded" />|<img width="1181" height="393" alt="image" src="https://github.com/user-attachments/assets/09a252a1-3959-40be-bc9a-c24b6efad8cf" />|
+| FFT    |<img width="890" height="393" alt="image" src="https://github.com/user-attachments/assets/b4f3533f-bf81-41a5-8950-318bcce70978" />|<img width="890" height="393" alt="image" src="https://github.com/user-attachments/assets/40d73983-a147-4585-a7f9-0cc015ec6ca3" />|
+|  FFT [dB] | <img width="875" height="393" alt="image" src="https://github.com/user-attachments/assets/75f320db-90cb-4e0f-86ce-446040a534ca" />|<img width="875" height="393" alt="image" src="https://github.com/user-attachments/assets/579310e4-d6b1-4fd4-ab3e-85db13bc43db" />|
 
-## **6.1. EMG - Biceps Braquial** <a name="id9"></a>
+**Toma 3:**
+| Tipo                 | Señal original | Señal filtrada                         |
+|-------------------------|----------|---------------------------------|
+| Ploteo |<img width="1181" height="393" alt="image" src="https://github.com/user-attachments/assets/dd74eca2-5f5b-47ca-be8c-82cbbcf4c3ec" />|<img width="1181" height="393" alt="image" src="https://github.com/user-attachments/assets/2e221153-96af-42f2-a432-93ec00accf71" />|
+|  FFT    |<img width="890" height="393" alt="image" src="https://github.com/user-attachments/assets/cad0c7bb-7095-4317-9320-9a4d4f2c4ed6" />|<img width="890" height="393" alt="image" src="https://github.com/user-attachments/assets/48f35fb8-efe0-4433-917b-4c2d89d121fd" />|
+| FFT [dB] |<img width="875" height="393" alt="image" src="https://github.com/user-attachments/assets/ea460a99-f9c8-4b14-9dd5-452fddbe5ca2" />|<img width="875" height="393" alt="image" src="https://github.com/user-attachments/assets/e568ea60-58bc-4c92-89f6-627c3c939aef" />|
 
-En los registros de electromiografía superficial (sEMG) del bíceps braquial en los brazos, la amplitud y el contenido espectral de la señal se encuentran en relación directa con el nivel de activación neuromuscular [9]. Para su procesado, fue utilizado un filtro pasa- banda (20–450Hz), que permitió eliminar la componente DC y artefactos fuera del rango de interés, y un filtro notch a 60Hz que sirve para reducir el ruido de fondo de la red eléctrica. Para el análisis : se realizaron los 2 segmentos de señal : 1 minuto en reposo y ,1 minuto en contracción de oposición. 
-En la condición de reposo, la señal es de baja amplitud y de acuerdo con el escaso reclutamiento de fibras musculares [10].La señal, en el análisis espectral (FFT y Welch), la energía es reducida y también podemos observar algunos picos de ruido residual , los cuales se hacen más notorios debido a la baja amplitud de la señal.
-En la parte en la que nos encontramos con movimiento fuerte y oposición, la señal sí presenta una clara amplitud, ya que se están enviando muchas unidades motoras [10]. También podemos observarlo en el dominio de la frecuencia, donde se incrementa el contenido energético y se puede ver también el característico rango de la señal EMG activa, que se encuentra con frecuencia entre 20 y 150 Hz [11]. 
+### 5.3 Reposo basal después del mantenimiento de la respiración
+| Tipo                 | Señal original | Señal filtrada                         |
+|-------------------------|----------|---------------------------------|
+| Ploteo |<img width="1181" height="393" alt="image" src="https://github.com/user-attachments/assets/0f2d2a8f-da31-433f-9061-d6766b7bcb8b" />|<img width="1181" height="393" alt="image" src="https://github.com/user-attachments/assets/40cdc42d-7edf-4cbc-9c64-9733e1e5ca8c" />|
+|  FFT    |<img width="890" height="393" alt="image" src="https://github.com/user-attachments/assets/8d3f3d3c-c48e-4bd0-b4e1-99f9013f6c03" />|<img width="890" height="393" alt="image" src="https://github.com/user-attachments/assets/ec60511d-8a85-4c48-94e9-cb56a812950d" />  |
+| FFT [dB] |<img width="875" height="393" alt="image" src="https://github.com/user-attachments/assets/3f4105ff-829e-43da-bc7f-445bb87346e6" />|<img width="875" height="393" alt="image" src="https://github.com/user-attachments/assets/5e8625e8-1fbd-4dc1-9e4a-8cfe64dda7f9" />|
+
+## 5.4 Respiración después de actividad aeróbica
+
+**Toma 1:**
+| Tipo                 | Señal original | Señal filtrada                         |
+|-------------------------|----------|---------------------------------|
+| Ploteo |<img width="1181" height="393" alt="image" src="https://github.com/user-attachments/assets/b8781c16-a99c-421b-b028-91c948924a3c" />| <img width="1181" height="393" alt="image" src="https://github.com/user-attachments/assets/fe244dd1-e0a5-411b-a7bf-73cfd20082ef" />|
+|  FFT    |<img width="890" height="393" alt="image" src="https://github.com/user-attachments/assets/97916780-29e4-43a1-9b92-65571d309891" />| <img width="890" height="393" alt="image" src="https://github.com/user-attachments/assets/cfbbee03-6025-4f23-a8e6-0e0d3ca797a5" /> |
+| FFT [dB] |<img width="875" height="393" alt="image" src="https://github.com/user-attachments/assets/67dc52c0-9974-4905-b46b-6a3643fcd504" />| <img width="875" height="393" alt="image" src="https://github.com/user-attachments/assets/92e53a6d-a594-467f-b9d2-f91a2889169e" />|
+
+**Toma 2:**
+| Tipo                 | Señal original | Señal filtrada                         |
+|-------------------------|----------|---------------------------------|
+| Ploteo | <img width="1180" height="393" alt="image" src="https://github.com/user-attachments/assets/ce0eab54-39a1-43e6-b826-ef05aa667458" />| <img width="1172" height="393" alt="image" src="https://github.com/user-attachments/assets/425fd7bc-6df7-40c3-9bc6-ad8ffb92a9a3" />|
+|  FFT    |<img width="890" height="393" alt="image" src="https://github.com/user-attachments/assets/aa504f13-9ece-463e-9923-4b8b6626be14" />| <img width="890" height="393" alt="image" src="https://github.com/user-attachments/assets/356141c7-24a3-4886-a438-ddf95a892c76" />|
+| FFT [dB] |<img width="875" height="393" alt="image" src="https://github.com/user-attachments/assets/1485a92b-c995-4058-813f-ebd4e8e71f92" />|<img width="875" height="393" alt="image" src="https://github.com/user-attachments/assets/24456f84-7600-42a4-b699-0f02def51abb" />|
 
 
-## **6.2. EMG - Trapecio** <a name="id9"></a>
-En los registros de electromiografía superficial del músculo trapecio, la amplitud y el contenido espectral de la señal se relacionan directamente con el nivel de activación neuromuscular. Para poder procesar las señales, éstas fueron filtradas mediante la aplicación de un filtro pasa-banda de 20–450 Hz y un filtro notch a 60 Hz eliminando así la componente DC y la red eléctrica, y de esta forma poder conservar el rango fisiológicamente relevante de la EMG.
-En la condición de reposo, la señal presenta baja amplitud, lo cual es consistente con un reclutamiento mínimo de unidades motoras. En el análisis espectral (FFT y Welch), el espectro de densidad de potencia es bajo encontrándose algunos picos siempre asociados al ruido residual que se hacen acentuar por la baja energía total de la señal. Este comportamiento es característico de bajos niveles de activación muscular, por debajo del 20% de la contracción voluntaria máxima (MVIC) [12].
-Por el contrario, la condición de movimiento (oposición) muestra una clara amplitud de la señal debido a un mayor reclutamiento y sincronización de unidades motoras, aspecto que concuerda con estudios donde ejercicios como la retracción escapular son capaces de conseguir niveles de activación del trapecio moderados-altos [12].En el dominio de la frecuencia, se observa un aumento del contenido energético, concentrado principalmente en el rango característico de la EMG activa (20–150 Hz), evidenciando la participación funcional del músculo en la estabilización escapular.
+## 6. Discusión y resultados <a name="#resultados-y-limitaciones"></a> 
+- **Reposo basal**: El registro del ECG en reposo representa la actividad cardíaca en condiciones normales sin influencia de movimiento o esfuerzo físico. Se observan picos ascendentes (propios de la primera derivada). El complejo QRS positivo corresponde a la despolarización ventricular que es la activación eléctrica de las fibras cardíacas que generan la contracción principal del corazón que impulsa la sangre hacia la circulación sistémica y pulmonar. En la FFT se ve que la señal ECG concentra su energía a frecuencias menores a 40 Hz y que las frecuencias mayores son atenuadas. En la FFT de la señal filtrada se puede observar mejor las atenuaciondes de frecuencias.
+- **Mantenimiento de la respiración por 10 segundos**: En los primeros segundos de la señal se presenta una distancia del intervalo R-R corta debido a la "adaptación fisiológica" inicial que se produce al aguantar la respiración. También se observa una disminución progresiva en la amplitud de los picos R en comparación al reposo basal, debido a que la apnea voluntaria genera una menor oxigenación y cambios en la presión intratorácica, lo cual altera la dinámica cardíaca y se manifiesta como una reducción progresiva en la amplitud de los picos del ECG.
+- **Reposo basal después del mantenimiento de la respiración**: Al reanudar la respiración tras la apnea voluntaria, se observa la reaparición de la deriva de la línea base y una recuperación de los intervalor R-R, asociada al reinicio del ciclo respiratorio. Aun así, las variaciones de los intervalos R-R son irregulares, característicos de una arritmia sinusal, lo cual tiene sentido ya que esta corresponde a una variación fisiológica a causa de la apnea.
+- **Respiración post actividad física**: Después de realizar una actividad aeróbica por 10 minutos, en ambas tomas se puede observar que hay más picos QRS por segundo en comparación con el reposo basal y una reducción de los intervalos R-R, lo que significa que el corazón late más rápido por el esfuerzo físico. Esto se traduce al aumento de la frecuencia cardíaca que conforme pasa el tiempo se va estabilizando tanto los picos como los intervalos R-R. También se observan variaciones en la amplitud de los picos a causa de la fluctuación del retorno venoso y el volumen sistólico.
 
-## **7. Cuestionario**
-### 1. Which are the significant frequencies for EMG acquisitions? Are they the same in all body areas such as facial area?
-
-Las señales presentaron información relevante en el rango de 20 Hz a 450 Hz (intervalo
-fisiológicamente relevante de la actividad muscular), pues en este se concentra la mayor
-parte de la energía de la señal. Esto se debe a que, por ejemplo, las frecuencias más bajas
-a 20 Hz están relacionadas con ruido o artefactos de movimiento o desplazamiento de los
-electrodos y las mayores a 450 Hz pueden asociarse a ruido del sistema o interferencias.
-Por lo cual se aplica un filtro que limita el análisis a dicho intervalo.
-El comportamiento de las frecuencias no es igual en todas las regiones del cuerpo. Los
-músculos grandes, como el bíceps y el trapecio, presentan mayor amplitud y un contenido
-energético más grande debido al mayor número de fibras musculares activadas. A pesar
-que en el documento no se haya realizado la experiencia con los músculos faciales, se
-espera que al ser más pequeños y tener un patrón de activación diferente, generen señales
-con menor amplitud y con una distribución frecuencial algo distinta. Es decir, aunque el
-rango general se mantiene la distribución de energía dentro de este varía según el tipo de
-músculo.
-
-### 2. Which kind of filter is essential when working with EMG signals? Why do we need to apply such a filter?
-
-Para este tipo de procesamiento se requiere la aplicación de filtros para eliminar
-componentes no deseados y preservar solo la información fisiológicamente relevante. En
-este laboratorio se utilizaron tanto un filtro pasa-banda entre 20 Hz y 450 Hz como un filtro
-notch a 60 Hz.
-El filtro pasa-banda sirve para eliminar la componente DC, los artefactos de baja frecuencia
-asociados al movimiento y el ruido de alta frecuencia. Esto busca que la señal analizada
-corresponda al rango de la actividad muscular real. Por otro lado, el filtro notch tiene la fue
-aplicado para eliminar la interferencia de la red eléctrica que actúa como un ruido en 60 Hz.
-Esta interferencia puede distorsionar el análisis si no es removida. Gracias a estos filtros, la
-señal filtrada muestra una forma más definida y menos contaminada en comparación con la
-señal original.
-
-### 3. How does the amplitude differ in each muscular contraction? Is there a difference for body locations?
-
-La amplitud de la señal EMG varía directamente con el nivel de contracción muscular, lo
-cual se puede observar en los resultados obtenidos.
-Cuando el bíceps braquial se encuentra en reposo, la señal presenta una amplitud baja y
-relativamente estable lo cual es equivalente a indicar que existe un bajo nivel de activación
-muscular. Sin embargo, cuando se realiza el movimiento fuerte con oposición, la señal
-incrementa significativamente su amplitud donde muestra picos pronunciados y mayor
-variabilidad.
-Para el trapecio, en reposo este también muestra presenta baja amplitud pero durante la
-contracción se puede observar ráfagas de actividad de mayor magnitud. La señal tiende a
-ser más sostenida en el tiempo lo cual hace referencia a la función postural del músculo.
-Los resultados muestran que aunque ambos músculos presentan la misma tendencia en
-rasgos generales, existen diferencias en el patrón de activación. El bíceps presenta
-activaciones más intermitentes asociadas al movimiento, mientras que el trapecio muestra
-activaciones más sostenidas. Con esto, se puede decir que la amplitud no solo va a
-depender de la intensidad de contracción, sino también está relacionada con la función y
-características del músculo a evaluar.
-
-### 4. Show a screenshot of a relevant portion of Electromyography (EMG) data within the
-experiment proposed on Section D of a facial muscle of interest. Does this signal
-correspond to what you expected? Why? Which emotion and action did you perform
-to trigger the muscle? Which muscle did you trigger?
-
-Como se mencionó anteriormente, el experimento no se realizó para los músculos faciales,
-sin embargo, se analizaron los otros músculos ya mencionados. Dentro a lo que respecta a
-ellos, se puede decir que una porción representativa de la EMG puede observarse en las
-gráficas correspondientes al movimiento fuerte con oposición del bíceps braquial y del
-trapecio. En ellas se aprecia un incremento significativo en la amplitud que se acompaña de
-un comportamiento irregular y no periódico.
-Esto corresponde a lo esperado, ya que durante la contracción muscular se incrementa el
-reclutamiento de unidades motoras y se debe generar una señal de mayor amplitud con
-mayor contenido energético. La naturaleza no periódica de la señal se debe a que las fibras
-de los músculos no se sincronizan para activarse.
-El comportamiento observado en los músculos analizados es equivalente al esperado en
-músculos como los faciales. Por ejemplo, al realizar una acción como sonreír que activa el
-músculo cigomático se esperaría observar un incremento en la amplitud de la señal y un
-patrón no periódico similar.
-
-### 5. To the best of your knowledge, does the EMG amplitude equal to the amount of force
-that you have generated with your muscle?
-
-La amplitud de la señal EMG no es equivalente a la fuerza generada por el músculo pero si
-existe una relación entre ambas variables. El aumento en la amplitud suele indicar un mayor
-nivel de activación muscular lo cual suele conllevar un incremento en la fuerza.
-Sin embargo, la relación no es lineal ni directa porque la señal depende de múltiples
-variables como la frecuencia de activación, la posición de los electrodos, la impedancia de
-la piel, el tipo de músculo, etc. En este documento se observó que la amplitud aumenta
-considerablemente durante la contracción con oposición en comparación con el reposo. Es
-así como la señal EMG debe interpretarse como una medida de la actividad eléctrica
-muscular y no como una medición directa de la fuerza generada.
-
-## **8. Referencias** 
-
-[1]	Clínica Universidad de Navarra, “Electromiografía y electroneurografía,” Clínica Universidad	de	Navarra.	[En	línea].	Disponible	en: https://www.cun.es/enfermedades-tratamientos/pruebas-diagnosticas/electromiografia-electr oneurografia
-
-[2]	PLUX Wireless Biosignals, “BITalino (r)evolution Home Guide #1: Electromyography (EMG)”, Lisbon, Portugal, 2021. [En línea]. Disponible en: https://bitalino.com/storage/uploads/media/bitalino-homeguide-1-emg.pdf
-
-[3]	D. Landin, M. Thompson y M. R. Jackson, “Actions of the Biceps Brachii at the Shoulder: A Review,” Journal of Clinical Medicine Research, vol. 9, no. 8, pp. 667–670, Aug. 2017, doi: 10.14740/jocmr2901w 
-
-[4]	Z. J. Henderson, S. Bohunicky, J. Rochon, M. Dacanay, and T. D. Scribbans, “Muscle Activation in Specific Regions of the Trapezius During Modified Kendall Manual Muscle Tests,” J Athl Train, vol. 56, no. 10, pp. 1078–1085, Oct. 2021, doi: 10.4085/545-20.
-
-
-[5] J. L. Fernández-Sáez, M. T. Pérez-García y J. M. Sebastián, “Hand gesture recognition based on a novel EMG decomposition method,” Procedia Engineering, vol. 63, pp. 111–118, 2013, doi: 10.1016/j.proeng.2013.08.073.
-
-[6] Autor(es). “Título del artículo,” Nombre de la revista, vol., no., pp., año. Disponible en: https://dialnet.unirioja.es/servlet/articulo?codigo=9866155
-
-[7] M. Proença and K. Mrotzeck, "BITalino (r)evolution Home Guide #1: Electromyography (EMG)," PLUX – Wireless Biosignals, S.A., Lisbon, Portugal, Tech. Rep. OD.LB.02.07, Feb. 2021.
-
-[8] H. J. Hermens, B. Freriks, C. Disselhorst-Klug, and G. Rau, "Development of recommendations for SEMG sensors and sensor placement procedures," Journal of Electromyography and Kinesiology, vol. 10, no. 5, pp. 361–374, Oct. 2000.
-
-[9] D. Farina et al., Journal of Applied Physiology, 2004.
-
-[10] S. De Luca, Journal of Applied Biomechanics, 1997.
-
-[11] R. Merletti, P. Parker, Electromyography: Physiology, Engineering, and Non-Invasive Applications, Wiley-IEEE Press, 2004.
-
-[12] R. A. McCabe, K. F. Orishimo, M. P. McHugh y S. J. Nicholas, “Surface electromyographic analysis of the lower trapezius muscle during exercises performed below ninety degrees of shoulder elevation in healthy subjects,” North American Journal of Sports Physical Therapy, vol. 2, no. 1, pp. 34–43, 2007.
 
 
 
