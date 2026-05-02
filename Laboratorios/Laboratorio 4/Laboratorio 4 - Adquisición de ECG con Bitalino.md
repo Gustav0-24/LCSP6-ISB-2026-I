@@ -134,16 +134,16 @@ Se realizó el ploteo de las señales crudas y filtradas, así como de sus respe
 **Toma 3:**
 | Tipo                 | Señal original | Señal filtrada                         |
 |-------------------------|----------|---------------------------------|
-| Ploteo |<img width="1181" height="393" alt="image" src="https://github.com/user-attachments/assets/dd74eca2-5f5b-47ca-be8c-82cbbcf4c3ec" />|<img width="1181" height="393" alt="image" src="https://github.com/user-attachments/assets/2e221153-96af-42f2-a432-93ec00accf71" />|
-|  FFT    |<img width="890" height="393" alt="image" src="https://github.com/user-attachments/assets/cad0c7bb-7095-4317-9320-9a4d4f2c4ed6" />|<img width="890" height="393" alt="image" src="https://github.com/user-attachments/assets/48f35fb8-efe0-4433-917b-4c2d89d121fd" />|
-| FFT [dB] |<img width="875" height="393" alt="image" src="https://github.com/user-attachments/assets/ea460a99-f9c8-4b14-9dd5-452fddbe5ca2" />|<img width="875" height="393" alt="image" src="https://github.com/user-attachments/assets/e568ea60-58bc-4c92-89f6-627c3c939aef" />|
+| Ploteo |<img width="968" height="335" alt="Captura de pantalla 2026-05-01 201131" src="https://github.com/user-attachments/assets/6c2b7b86-cfc5-44f7-9067-8793e6aeb615" />|<img width="943" height="307" alt="Captura de pantalla 2026-05-01 201500" src="https://github.com/user-attachments/assets/85c684bf-6d4a-4d9a-9b4d-e1ab96ced9e5" />|
+|  FFT    |<img width="941" height="417" alt="Captura de pantalla 2026-05-01 201148" src="https://github.com/user-attachments/assets/31900fee-0d71-4dcf-a24b-e57a8ec31f54" />|<img width="937" height="405" alt="Captura de pantalla 2026-05-01 201521" src="https://github.com/user-attachments/assets/f5ceeacb-e75e-4466-a8ca-915b9c718f50" />|
+| FFT [dB] |<img width="935" height="426" alt="Captura de pantalla 2026-05-01 201201" src="https://github.com/user-attachments/assets/696ed765-4bc0-4e58-8514-271a82f24e42" />|<img width="927" height="420" alt="Captura de pantalla 2026-05-01 201536" src="https://github.com/user-attachments/assets/1df251eb-af50-4768-a212-762f339725b8" />|
 
 ### 5.3 Reposo basal después del mantenimiento de la respiración
 | Tipo                 | Señal original | Señal filtrada                         |
 |-------------------------|----------|---------------------------------|
-| Ploteo |<img width="1181" height="393" alt="image" src="https://github.com/user-attachments/assets/0f2d2a8f-da31-433f-9061-d6766b7bcb8b" />|<img width="1181" height="393" alt="image" src="https://github.com/user-attachments/assets/40cdc42d-7edf-4cbc-9c64-9733e1e5ca8c" />|
-|  FFT    |<img width="890" height="393" alt="image" src="https://github.com/user-attachments/assets/8d3f3d3c-c48e-4bd0-b4e1-99f9013f6c03" />|<img width="890" height="393" alt="image" src="https://github.com/user-attachments/assets/ec60511d-8a85-4c48-94e9-cb56a812950d" />  |
-| FFT [dB] |<img width="875" height="393" alt="image" src="https://github.com/user-attachments/assets/3f4105ff-829e-43da-bc7f-445bb87346e6" />|<img width="875" height="393" alt="image" src="https://github.com/user-attachments/assets/5e8625e8-1fbd-4dc1-9e4a-8cfe64dda7f9" />|
+| Ploteo |<img width="923" height="311" alt="Captura de pantalla 2026-05-01 201814" src="https://github.com/user-attachments/assets/9e139836-fd53-47cf-8100-ad8f467a1de6" />|<img width="965" height="317" alt="Captura de pantalla 2026-05-01 202030" src="https://github.com/user-attachments/assets/b9edf8d7-215d-4810-915a-4adc7fb4d459" />|
+|  FFT    |<img width="952" height="410" alt="Captura de pantalla 2026-05-01 201846" src="https://github.com/user-attachments/assets/68667608-2880-4d3a-b131-dc113faa9c32" />|<img width="958" height="422" alt="Captura de pantalla 2026-05-01 202047" src="https://github.com/user-attachments/assets/87564f52-65da-4c01-8ce3-c731d5122592" />|
+| FFT [dB] |<img width="955" height="422" alt="Captura de pantalla 2026-05-01 201901" src="https://github.com/user-attachments/assets/600106eb-5550-40ce-9069-4c41b7b6e32c" />|<img width="997" height="457" alt="Captura de pantalla 2026-05-01 202101" src="https://github.com/user-attachments/assets/4f2c166d-014a-4e7f-8ea0-391da3e5ca2f" />|
 
 ## 5.4 Respiración después de actividad aeróbica
 
