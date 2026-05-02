@@ -150,16 +150,16 @@ Se realizó el ploteo de las señales crudas y filtradas, así como de sus respe
 **Toma 1:**
 | Tipo                 | Señal original | Señal filtrada                         |
 |-------------------------|----------|---------------------------------|
-| Ploteo |<img width="1181" height="393" alt="image" src="https://github.com/user-attachments/assets/b8781c16-a99c-421b-b028-91c948924a3c" />| <img width="1181" height="393" alt="image" src="https://github.com/user-attachments/assets/fe244dd1-e0a5-411b-a7bf-73cfd20082ef" />|
-|  FFT    |<img width="890" height="393" alt="image" src="https://github.com/user-attachments/assets/97916780-29e4-43a1-9b92-65571d309891" />| <img width="890" height="393" alt="image" src="https://github.com/user-attachments/assets/cfbbee03-6025-4f23-a8e6-0e0d3ca797a5" /> |
-| FFT [dB] |<img width="875" height="393" alt="image" src="https://github.com/user-attachments/assets/67dc52c0-9974-4905-b46b-6a3643fcd504" />| <img width="875" height="393" alt="image" src="https://github.com/user-attachments/assets/92e53a6d-a594-467f-b9d2-f91a2889169e" />|
+| Ploteo |<img width="927" height="312" alt="Captura de pantalla 2026-05-01 202514" src="https://github.com/user-attachments/assets/9fbdcddb-c5f2-464c-8246-b8bc6b486709" />| <img width="942" height="307" alt="Captura de pantalla 2026-05-01 202901" src="https://github.com/user-attachments/assets/990d22c8-6e9b-4340-a385-7e4c26f608bd" />|
+|  FFT    |<img width="958" height="413" alt="Captura de pantalla 2026-05-01 202539" src="https://github.com/user-attachments/assets/621ebd2f-c9e2-4a69-a13d-3e74a02f91a9" />| <img width="952" height="397" alt="Captura de pantalla 2026-05-01 202915" src="https://github.com/user-attachments/assets/3a4d6252-f2ce-43df-8e79-96a954a8969b" />|
+| FFT [dB] |<img width="960" height="415" alt="Captura de pantalla 2026-05-01 202553" src="https://github.com/user-attachments/assets/ff248c27-a728-4f9e-ac3f-22d8ba30c10d" />| <img width="960" height="422" alt="Captura de pantalla 2026-05-01 202937" src="https://github.com/user-attachments/assets/fe447245-2ce3-4893-a136-0ce5db329bec" />|
 
 **Toma 2:**
 | Tipo                 | Señal original | Señal filtrada                         |
 |-------------------------|----------|---------------------------------|
-| Ploteo | <img width="1180" height="393" alt="image" src="https://github.com/user-attachments/assets/ce0eab54-39a1-43e6-b826-ef05aa667458" />| <img width="1172" height="393" alt="image" src="https://github.com/user-attachments/assets/425fd7bc-6df7-40c3-9bc6-ad8ffb92a9a3" />|
-|  FFT    |<img width="890" height="393" alt="image" src="https://github.com/user-attachments/assets/aa504f13-9ece-463e-9923-4b8b6626be14" />| <img width="890" height="393" alt="image" src="https://github.com/user-attachments/assets/356141c7-24a3-4886-a438-ddf95a892c76" />|
-| FFT [dB] |<img width="875" height="393" alt="image" src="https://github.com/user-attachments/assets/1485a92b-c995-4058-813f-ebd4e8e71f92" />|<img width="875" height="393" alt="image" src="https://github.com/user-attachments/assets/24456f84-7600-42a4-b699-0f02def51abb" />|
+| Ploteo |<img width="952" height="297" alt="Captura de pantalla 2026-05-01 203124" src="https://github.com/user-attachments/assets/08a98072-5396-4530-9f41-6e3b07b5e7f5" />| <img width="901" height="306" alt="Captura de pantalla 2026-05-01 203405" src="https://github.com/user-attachments/assets/fdee620c-0c29-46b7-aaa8-5192ece62150" />|
+|  FFT    |<img width="957" height="416" alt="Captura de pantalla 2026-05-01 203136" src="https://github.com/user-attachments/assets/6dedcb46-5fc1-41bc-962f-1e53ce728914" />| <img width="947" height="413" alt="Captura de pantalla 2026-05-01 203419" src="https://github.com/user-attachments/assets/9e9dd92c-e3c9-4f73-8b70-22addb3bb63e" />|
+| FFT [dB] |<img width="943" height="418" alt="Captura de pantalla 2026-05-01 203153" src="https://github.com/user-attachments/assets/6255baed-2b39-4f5e-b8ff-215ba0bd3e96" />|<img width="971" height="422" alt="Captura de pantalla 2026-05-01 203433" src="https://github.com/user-attachments/assets/a348b405-83ea-4a24-b558-1c974df9052d" />|
 
 
 ## 6. Discusión y resultados <a name="#resultados-y-limitaciones"></a> 
