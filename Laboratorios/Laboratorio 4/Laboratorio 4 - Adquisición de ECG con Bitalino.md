@@ -207,7 +207,9 @@ La bradicardia y la taquicardia se pueden detectar observando la distancia entre
 
 ## 8. Bibliografía
 [1] “EL ELECTROCARDIOGRAMA NORMAL,” in Editorial Unimagdalena eBooks, 2018, pp. 31–47. doi: 10.2307/j.ctt1zgwm85.4.
+
 [2] N. Rafie, A. H. Kashou y P. A. Noseworthy, “ECG Interpretation: Clinical Relevance, Challenges, and Advances,” Hearts, vol. 2, pp. 505–513, 2021.
+
 [3] S. Krasne, C. D. Stevens, P. J. Kellman y J. T. Niemann, “Mastering Electrocardiogram Interpretation Skills Through a Perceptual and Adaptive Learning Module,” AEM Education and Training, vol. 5, 2021.
 
 
