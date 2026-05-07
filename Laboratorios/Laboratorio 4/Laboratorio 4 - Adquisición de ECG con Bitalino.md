@@ -205,6 +205,9 @@ El movimiento tiene un impacto evidente en la señal ECG observada. En las etapa
 
 La bradicardia y la taquicardia se pueden detectar observando la distancia entre los picos R del ECG. Cuando los picos R están más separados significa que el corazón late más lento lo que podría indicar bradicardia. En cambio, cuando los picos R están más juntos indica que el corazón late más rápido lo que correspondería a taquicardia. También se puede estimar la frecuencia cardíaca contando los latidos en un intervalo de tiempo. En las señales analizadas, después de la actividad física se puede notar que los picos están más seguidos, lo que indica un aumento de la frecuencia cardíaca.
 
-
+## 8. Bibliografía
+[1] “EL ELECTROCARDIOGRAMA NORMAL,” in Editorial Unimagdalena eBooks, 2018, pp. 31–47. doi: 10.2307/j.ctt1zgwm85.4.
+[2] N. Rafie, A. H. Kashou y P. A. Noseworthy, “ECG Interpretation: Clinical Relevance, Challenges, and Advances,” Hearts, vol. 2, pp. 505–513, 2021.
+[3] S. Krasne, C. D. Stevens, P. J. Kellman y J. T. Niemann, “Mastering Electrocardiogram Interpretation Skills Through a Perceptual and Adaptive Learning Module,” AEM Education and Training, vol. 5, 2021.
 
 
