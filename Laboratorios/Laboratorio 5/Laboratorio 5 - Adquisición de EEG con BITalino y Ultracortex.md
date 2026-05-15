@@ -45,3 +45,7 @@ El EEG es ampliamente utilizado en aplicaciones médicas y de investigación deb
 - **UltraCortex:** Casco con electrodos secos que facilita la colocación en posiciones específicas del sistema 10-20.
 - **Laptop:** Equipo de cómputo utilizado para ejecutar el software de registro, almacenamiento y análisis de datos.
 
+
+## **4. Metodología**
+
+
