@@ -1,3 +1,4 @@
+
 # **LABORATORIO 5: Adquisicion de señales EEG con BITalino y Ultracortex**
 
 
@@ -7,7 +8,9 @@ La electroencefalografía (EEG) es una técnica de monitoreo no invasiva utiliza
 
 
 En el presente laboratorio se empleará el sistema BITalino junto con el casco OpenBCI Ultracortex para adquirir y analizar señales EEG bajo diferentes condiciones experimentales. Las pruebas incluirán estados de reposo, concentración visual, resolución de tareas cognitivas y exposición a estímulos auditivos como música y sonidos modulados en frecuencias alfa y beta. El análisis de estas condiciones permitirá observar cambios en la actividad cerebral y reconocer la predominancia de determinadas bandas de frecuencia dependiendo del nivel de relajación, atención o estimulación mental del participante.
-<p align="center"> <img src="https://i.pinimg.com/736x/18/18/8f/18188fdb48dd3a434b2b5e0472f7bcc3.jpg" alt="Ondas cerebrales EEG" width="450"><br>
+<p align="center"> <img width="1685" height="1345" alt="brain-waves-bitbrain_0" src="https://github.com/user-attachments/assets/ddb90b99-b756-4b94-b532-a437c052222c" />
+
+
   
 </p>
 
