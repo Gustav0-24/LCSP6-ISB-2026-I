@@ -34,18 +34,8 @@ El EEG es ampliamente utilizado en aplicaciones médicas y de investigación deb
 - Representar gráficamente las señales EEG utilizando el software OpenSignals (r)evolution.
 - Interpretar y analizar los datos obtenidos a partir del registro.
   
-## **3. Materiales e instrumentos**
-| Materiales                                   | Cantidad | Imagen                          |
-|----------------------------------------------|----------|---------------------------------|
-| Batería 3.7V                                 | 1        | ![bateria](https://github.com/user-attachments/assets/25fe9643-a7fa-4bd9-85ad-e1ce78a926ab) |
-| Software OpenSignals                         | 1        | ![opensignals](https://github.com/user-attachments/assets/270de790-173f-42fc-9960-5b12a7fff042) |
-| Electrodos de superficie descartables        | 3        | ![electrodos (1)](https://github.com/user-attachments/assets/2e58ad27-7c4a-4336-9fdf-fe54129be397) |
-| Cable de los 3 electrodos                    | 1        | ![cable](https://github.com/user-attachments/assets/2d397e32-3ec4-4982-91fe-0d6855e3aec0) |
-| Kit BITalino                                 | 1        | ![bitalino](https://github.com/user-attachments/assets/a60c127f-27c2-4a03-b852-454d23f54163) |
-| Laptop                                       | 1        | ![laptop](https://github.com/user-attachments/assets/c1394461-1a65-41fc-b6f4-8d8ae5b3b37b) |
+## **3. Materiales e instrumentos: 
 
-
-## Descripción de materiales: 
 - **Batería 3.7V:** Fuente de alimentación portátil para el funcionamiento del kit BiTalino.
 - **Software OpenSignals:** Herramienta utilizada para la adquisición y visualización de las señales EEG.
 - **Software OpenBCI:** Programa de apoyo para la configuración y análisis de registros neurofisiológicos.
