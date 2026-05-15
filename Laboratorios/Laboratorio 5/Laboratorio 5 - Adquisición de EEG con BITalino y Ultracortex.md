@@ -34,7 +34,7 @@ El EEG es ampliamente utilizado en aplicaciones médicas y de investigación deb
 - Representar gráficamente las señales EEG utilizando el software OpenSignals (r)evolution.
 - Interpretar y analizar los datos obtenidos a partir del registro.
   
-## **3. Materiales e instrumentos: 
+## **3. Materiales e instrumentos** 
 
 - **Batería 3.7V:** Fuente de alimentación portátil para el funcionamiento del kit BiTalino.
 - **Software OpenSignals:** Herramienta utilizada para la adquisición y visualización de las señales EEG.
