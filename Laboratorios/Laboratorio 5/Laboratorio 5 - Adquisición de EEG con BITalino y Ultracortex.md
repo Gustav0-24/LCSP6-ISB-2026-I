@@ -47,5 +47,4 @@ El EEG es ampliamente utilizado en aplicaciones médicas y de investigación deb
 
 
 ## **4. Metodología**
-
-
+Para adquirir las señales EEG el participante realizó una secuencia de activades con el fin de observar variaciones en la actividad cerebral acorde a las tareas que realizaba. El experimento fue en un ambiente controlado con los electrodos EEG conectados al sistema Bitalino para ser visualizados en el software OpenSignals.
