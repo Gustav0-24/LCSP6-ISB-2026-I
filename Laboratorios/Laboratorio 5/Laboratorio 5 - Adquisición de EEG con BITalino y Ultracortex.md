@@ -51,8 +51,13 @@ Para adquirir las señales EEG el participante realizó una secuencia de activad
 
 ### Secuencia de actividades 
 **1. Estado Basal:** La persona debe tener los ojos y oídos tapados, asimismo debe evitar el movimiento facial. Se registra 1 minuto esta señal.
+
 **2. Punto Fijo:** Se desprende la venda de los ojos del sujeto para que mire a un punto fijo durante 1 minuto y se registra esa señal emitida.
+
 **3. Estado Basal:** Se pone al sujeto bajo las condiciones del primer estado y se registra esta señal por 30 segundos.
+
 **4. Parpadeo y masticación:** Se le solicita al sujeto que mastique y parpadee 2 veces con un espacio de 2 segundos entre cada evento. Esta señal debe ser registrada durante 30 segundos 
+
 **5. Estado Basal:** Se pone al sujeto bajo las condiciones del primer estado y se registra esta señal por 30 segundos.
+
 **6. Preguntas:** Se le realiza 3 preguntas sencillas a la persona y se toma la primera señal en el espacio de tiempo que demore el interrogatorio. Luego, se le realizan 3 preguntas complejas y se registra una segunda señal.
