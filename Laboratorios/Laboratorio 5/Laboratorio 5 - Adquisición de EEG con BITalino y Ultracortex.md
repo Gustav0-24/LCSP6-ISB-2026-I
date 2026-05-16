@@ -60,4 +60,14 @@ Para adquirir las señales EEG el participante realizó una secuencia de activad
 
 **5. Estado Basal:** Se pone al sujeto bajo las condiciones del primer estado y se registra esta señal por 30 segundos.
 
-**6. Preguntas:** Se le realiza 3 preguntas sencillas a la persona y se toma la primera señal en el espacio de tiempo que demore el interrogatorio. Luego, se le realizan 3 preguntas complejas y se registra una segunda señal.
+**6. Musica:** El participante es expuesto a música relajante y estresante durante 1 minuto y se registra esa señal.
+
+**7. Estado Basal:** Se pone al sujeto bajo las condiciones del primer estado y se registra esta señal por 30 segundos.
+
+**8. Preguntas:** Se le realiza 3 preguntas sencillas a la persona y se toma la primera señal en el espacio de tiempo que demore el interrogatorio. Luego, se le realizan 3 preguntas complejas y se registra una segunda señal.
+
+### Secuencia de actividades 
+**1. Colocación de electrodos:** Se limpia la zona de colocación de electrodos (zona superior a la ceja).
+
+**2. Registro de la señal:** Con ayuda del módulo Bitalino se adquiere la señal EEG que podran ser visualizadas en OpenSignals con la configuración correcta.
+
