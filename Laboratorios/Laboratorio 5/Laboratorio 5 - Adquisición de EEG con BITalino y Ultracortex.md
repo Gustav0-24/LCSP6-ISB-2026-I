@@ -71,6 +71,6 @@ Para adquirir las señales EEG el participante realizó una secuencia de activad
 
 **2. Registro de la señal:** Con ayuda del módulo Bitalino se adquiere la señal EEG que podran ser visualizadas en OpenSignals con la configuración correcta.
 
-<p align="center"> c<img width="121" height="150" alt="ELECTRODOS" src="https://github.com/user-attachments/assets/d7e88d92-b304-4792-a6f0-ce1c183a4265" />
+<p align="center"> c<img width="162" height="200" alt="ELECTRODOS" src="https://github.com/user-attachments/assets/d7e88d92-b304-4792-a6f0-ce1c183a4265" />
 
 <p align="center"> Posicionamiento de electrodos
