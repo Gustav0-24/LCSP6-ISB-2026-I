@@ -74,3 +74,40 @@ Para adquirir las señales EEG el participante realizó una secuencia de activad
 <p align="center"> c<img width="162" height="200" alt="ELECTRODOS" src="https://github.com/user-attachments/assets/d7e88d92-b304-4792-a6f0-ce1c183a4265" />
 
 <p align="center"> Posicionamiento de electrodos
+
+**1. Reposo**  
+| **Toma en estado basal** |
+|:------------------:|
+| <video src="https://github.com/user-attachments/assets/5fba599d-ffb7-4293-a401-e2896783939e" controls></video> |
+
+
+
+
+---
+**2. Mirada fija**  
+| **Toma 1** | **Toma 2** | 
+|:----------:|:----------:|
+| <video src="https://github.com/user-attachments/assets/5fba599d-ffb7-4293-a401-e2896783939e" controls></video> | <video src="https://github.com/user-attachments/assets/b38b4ddf-2a39-4a92-8e6d-b9b7223a4940" controls></video> | 
+
+---
+
+
+
+**3. Parpadeo y masticación**  
+| **Toma 1** | **Toma 2** |
+|:----------:|:----------:|
+| <video src="https://github.com/user-attachments/assets/f1d0432f-d818-43c0-83f4-50bc7bdfd11b" controls></video> | <video src="https://github.com/user-attachments/assets/a7ca0565-43a5-4e97-a773-b6efb86da92b" controls></video> | 
+
+---
+
+**4. Música relajante**  
+| **Toma 1** | **Toma 2** |
+|:----------:|:----------:|
+| <video src="https://github.com/user-attachments/assets/f1d0432f-d818-43c0-83f4-50bc7bdfd11b" controls></video> | <video src="https://github.com/user-attachments/assets/a7ca0565-43a5-4e97-a773-b6efb86da92b" controls></video> | 
+
+---
+**5. Música estresante**  
+| **Toma 1** | **Toma 2** |
+|:----------:|:----------:|
+| <video src="https://github.com/user-attachments/assets/f1d0432f-d818-43c0-83f4-50bc7bdfd11b" controls></video> | <video src="https://github.com/user-attachments/assets/a7ca0565-43a5-4e97-a773-b6efb86da92b" controls></video> | 
+
