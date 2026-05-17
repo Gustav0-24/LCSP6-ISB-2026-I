@@ -116,6 +116,14 @@ Para adquirir las señales EEG el participante realizó una secuencia de activad
 
 
 
+## **5. Referencias**
+
+[1] E. Niedermeyer and F. L. da Silva, Electroencephalography: Basic Principles, Clinical Applications, and Related Fields, 5th ed. Philadelphia, PA: Lippincott Williams & Wilkins, 2004.
+
+[2] E. Başar, C. Başar-Eroglu, S. Karakaş, and M. Schürmann, "Brain oscillations in perception and memory," International Journal of Psychophysiology, vol. 35, no. 2–3, pp. 95–124, 2000, doi: 10.1016/S0167-8760(99)00047-1.
+
+[3] G. Buzsáki and A. Draguhn, "Neuronal oscillations in cortical networks," Science, vol. 304, no. 5679, pp. 1926–1929, 2004, doi: 10.1126/science.1099745.
+
 
 
 
