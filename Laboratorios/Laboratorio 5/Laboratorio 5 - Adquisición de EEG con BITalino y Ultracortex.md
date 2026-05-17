@@ -78,36 +78,44 @@ Para adquirir las señales EEG el participante realizó una secuencia de activad
 **1. Reposo**  
 | **Toma en estado basal** |
 |:------------------:|
-| <video src="https://github.com/user-attachments/assets/5fba599d-ffb7-4293-a401-e2896783939e" controls></video> |
-
-
-
+| <video src="https://github.com/user-attachments/assets/a7f11d15-dee7-4687-8d2e-20ecfa87e194" controls></video> |
 
 ---
+
+
 **2. Mirada fija**  
-| **Toma 1** | **Toma 2** | 
-|:----------:|:----------:|
-| <video src="https://github.com/user-attachments/assets/5fba599d-ffb7-4293-a401-e2896783939e" controls></video> | <video src="https://github.com/user-attachments/assets/b38b4ddf-2a39-4a92-8e6d-b9b7223a4940" controls></video> | 
+| **Video** |
+|:----------:|
+| <video src="https://github.com/user-attachments/assets/ab0c3054-fd72-4db9-aec0-4b515b6e10a5" controls></video> | 
+
 
 ---
 
 
 
 **3. Parpadeo y masticación**  
-| **Toma 1** | **Toma 2** |
-|:----------:|:----------:|
-| <video src="https://github.com/user-attachments/assets/f1d0432f-d818-43c0-83f4-50bc7bdfd11b" controls></video> | <video src="https://github.com/user-attachments/assets/a7ca0565-43a5-4e97-a773-b6efb86da92b" controls></video> | 
+| **Toma 1** | 
+|:----------:|
+| <video src="https://github.com/user-attachments/assets/64debdcc-d5cd-4d4f-a3a3-3b461f2b2232" controls></video> | 
+
 
 ---
 
+
+
 **4. Música relajante**  
-| **Toma 1** | **Toma 2** |
-|:----------:|:----------:|
-| <video src="https://github.com/user-attachments/assets/f1d0432f-d818-43c0-83f4-50bc7bdfd11b" controls></video> | <video src="https://github.com/user-attachments/assets/a7ca0565-43a5-4e97-a773-b6efb86da92b" controls></video> | 
+| **Toma 1** |
+|:----------:|
+| <video src="https://github.com/user-attachments/assets/f9fdfee1-38ca-4d3c-ab32-e3ce8b9ccee1" controls></video> | 
 
 ---
 **5. Música estresante**  
-| **Toma 1** | **Toma 2** |
-|:----------:|:----------:|
-| <video src="https://github.com/user-attachments/assets/f1d0432f-d818-43c0-83f4-50bc7bdfd11b" controls></video> | <video src="https://github.com/user-attachments/assets/a7ca0565-43a5-4e97-a773-b6efb86da92b" controls></video> | 
+| **Toma 1** | 
+|:----------:|
+| <video src="https://github.com/user-attachments/assets/3415fea3-d826-46c6-b3b1-5e36822ddc11" controls></video> | 
+
+
+
+
+
 
