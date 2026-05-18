@@ -114,7 +114,27 @@ Para adquirir las señales EEG el participante realizó una secuencia de activad
 |:----------:|
 | <video src="https://github.com/user-attachments/assets/3415fea3-d826-46c6-b3b1-5e36822ddc11" controls></video> | 
 
+## **5. Procesamiento de datos** 
+En lo que respecta a los resultados utilizaremos el archivo "CodigosEEG_BITalino.ipynb", el cual se encuentra dentro del mismo folder. El archivo "CodigosEEG_BITalino.ipynb" es el que tiene todos los códigos hechos para la visualización de las gráficas de las señales adquiridas. También incluye su correspondiente filtrado y análisis de frecuencia. 
+### a)Importamos las Librerías
+Se importan las librerías a utilizar para graficar las señales.
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.signal import butter, filtfilt, iirnotch
 
+### b) Cargamos los archivos
+Se cargan los archivos .txt que contienen las señales obtenidas del software OpenSignals.
+datos = np.loadtxt("resta1.txt", delimiter=None, comments="#")
+eeg = datos[:, 5] #La señal se encuentra en ña 5 columna
+
+fs = 1000  
+t = np.arange(len(eeg)) / fs
+### c) Aplicación de filtros
+La señal EEG refleja la suma de potenciales postsinápticos de grandes poblaciones neuronales y se caracteriza por ser compleja, dinámica y de baja amplitud, con componentes que se distribuyen principalmente en un rango de frecuencias entre 1 y 30 Hz.
+Pasa-banda (0.5 Hz-40Hz): Este rango permite preservar las oscilaciones cerebrales de interés (δ, θ, α, β y parte de γ), mientras se atenúan artefactos de baja frecuencia (movimientos, sudoración y derivas lentas de electrodos) y de alta frecuencia (actividad muscular e interferencia electromagnética). De este modo, se mejora la relación señal-ruido y se garantiza que los análisis en dominios de tiempo y frecuencia se centren en la actividad cerebral relevante [a].
+Filtro Notch: Reduce la interferencia de la red eléctrica.
+### d) Ploteo de las señales
+Se realizó el ploteo de las señales crudas y filtradas, así como de sus respectivos FFT en amplitud y dB, análisis Welch y PSP.
 
 ## **5. Referencias**
 
