@@ -143,7 +143,28 @@ Se realizó el ploteo de las señales crudas y filtradas, así como de sus respe
 
 #### d.1 Señales obtenidas con sensor EEG con SnapBIT-DUO
 ##### 1. Reposo basal
+| Tipo                 | Señal original | Señal filtrada    |                    
+|-------------------------|----------|---------------------------------|
+|Ploteo   |<img width="827" height="582" alt="image" src="https://github.com/user-attachments/assets/6eb1273f-e9d8-4e76-9ed5-edd4de4fdf46" />|<img width="827" height="657" alt="Captura de pantalla 2026-05-17 224029" src="https://github.com/user-attachments/assets/09860e05-736b-4802-992e-ba37ba45a1e1" />|
+| PSD  ||<img width="852" height="422" alt="Captura de pantalla 2026-05-17 224049" src="https://github.com/user-attachments/assets/6a03334b-a0f5-4493-87f3-c533e88dce5d" />|
 
+##### 2. Mirada fija
+| Tipo                 | Señal original | Señal filtrada    |                    
+|-------------------------|----------|---------------------------------|
+|Ploteo   |<img width="752" height="611" alt="Captura de pantalla 2026-05-17 223715" src="https://github.com/user-attachments/assets/1c1e8f96-492c-4e2a-b5c1-edcb0df47e49" />|<img width="821" height="642" alt="image" src="https://github.com/user-attachments/assets/e53b65e4-d429-4918-825b-62e37aa8a7e7" />|
+| PSD  |<img width="861" height="392" alt="image" src="https://github.com/user-attachments/assets/b59cfbbb-8a6e-418b-9887-740f24478afd" />|<img width="831" height="432" alt="image" src="https://github.com/user-attachments/assets/aad4eda8-2f70-481f-a4e8-5756f41f5950" />|
+
+##### 3. Segundo reposo basal con ojos cerrados
+| Tipo                 | Señal original | Señal filtrada    |                    
+|-------------------------|----------|---------------------------------|
+|Ploteo   |<img width="652" height="466" alt="image" src="https://github.com/user-attachments/assets/b49e28bc-bb5f-49f2-9ef2-dd85c8f28c07" />|<img width="637" height="442" alt="image" src="https://github.com/user-attachments/assets/b46942f2-9a0c-4998-a2f7-b99d92d849fb" />|
+| PSD  |<img width="607" height="287" alt="image" src="https://github.com/user-attachments/assets/8fcce4b2-5b93-4556-a500-ffee1eb82dfa" />|<img width="532" height="260" alt="image" src="https://github.com/user-attachments/assets/580a1a6f-ec1d-4176-b523-8baf8f961f21" />|
+
+##### 5. Artefactos: parpadeo y masticación4. Segundo reposo basal con ojos cerrados
+| Tipo                 | Señal original | Señal filtrada    |                    
+|-------------------------|----------|---------------------------------|
+|Ploteo   |<img width="652" height="466" alt="image" src="https://github.com/user-attachments/assets/b49e28bc-bb5f-49f2-9ef2-dd85c8f28c07" />|<img width="637" height="442" alt="image" src="https://github.com/user-attachments/assets/b46942f2-9a0c-4998-a2f7-b99d92d849fb" />|
+| PSD  |<img width="607" height="287" alt="image" src="https://github.com/user-attachments/assets/8fcce4b2-5b93-4556-a500-ffee1eb82dfa" />|<img width="532" height="260" alt="image" src="https://github.com/user-attachments/assets/580a1a6f-ec1d-4176-b523-8baf8f961f21" />|
 
 
 ## **6. Discusión y resultados**
