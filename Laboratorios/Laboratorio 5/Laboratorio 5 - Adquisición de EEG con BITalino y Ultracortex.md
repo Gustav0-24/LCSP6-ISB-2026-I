@@ -118,25 +118,39 @@ Para adquirir las señales EEG el participante realizó una secuencia de activad
 En lo que respecta a los resultados utilizaremos el archivo "CodigosEEG_BITalino.ipynb", el cual se encuentra dentro del mismo folder. El archivo "CodigosEEG_BITalino.ipynb" es el que tiene todos los códigos hechos para la visualización de las gráficas de las señales adquiridas. También incluye su correspondiente filtrado y análisis de frecuencia. 
 ### a)Importamos las Librerías
 Se importan las librerías a utilizar para graficar las señales.
+```python
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import butter, filtfilt, iirnotch
+```
 
 ### b) Cargamos los archivos
 Se cargan los archivos .txt que contienen las señales obtenidas del software OpenSignals.
+```python
 datos = np.loadtxt("resta1.txt", delimiter=None, comments="#")
-eeg = datos[:, 5] #La señal se encuentra en ña 5 columna
+eeg = datos[:, 5] #La señal se encuentra en la 5 columna
 
 fs = 1000  
 t = np.arange(len(eeg)) / fs
+```
+
 ### c) Aplicación de filtros
 La señal EEG refleja la suma de potenciales postsinápticos de grandes poblaciones neuronales y se caracteriza por ser compleja, dinámica y de baja amplitud, con componentes que se distribuyen principalmente en un rango de frecuencias entre 1 y 30 Hz.
-Pasa-banda (0.5 Hz-40Hz): Este rango permite preservar las oscilaciones cerebrales de interés (δ, θ, α, β y parte de γ), mientras se atenúan artefactos de baja frecuencia (movimientos, sudoración y derivas lentas de electrodos) y de alta frecuencia (actividad muscular e interferencia electromagnética). De este modo, se mejora la relación señal-ruido y se garantiza que los análisis en dominios de tiempo y frecuencia se centren en la actividad cerebral relevante [a].
-Filtro Notch: Reduce la interferencia de la red eléctrica.
+- Pasa-banda (0.5 Hz-40Hz): Este rango permite preservar las oscilaciones cerebrales de interés (δ, θ, α, β y parte de γ), mientras se atenúan artefactos de baja frecuencia (movimientos, sudoración y derivas lentas de electrodos) y de alta frecuencia (actividad muscular e interferencia electromagnética). De este modo, se mejora la relación señal-ruido y se garantiza que los análisis en dominios de tiempo y frecuencia se centren en la actividad cerebral relevante [a].
+- Filtro Notch: Reduce la interferencia de la red eléctrica.
 ### d) Ploteo de las señales
 Se realizó el ploteo de las señales crudas y filtradas, así como de sus respectivos FFT en amplitud y dB, análisis Welch y PSP.
 
-## **5. Referencias**
+## **6. Discusión y resultados**
+- Reposo: En la gráfica de PSD se observa que tanto en la señal cruda como filtrada, la banda delta presenta mayor potencia, seguida de beta y theta. Lo ideal sería que al estar en reposo la banda theta presente mayor potencia ya que está asociada a la somnolencia ligera y relajación, no obstante se ve mayor potencia en delta y beta, la cual está relacionada con estados de alerta y tensión mental, lo que indica que la persona evaluada mantenía un nivel de tensión mental a pesar del intento de mantener la calma. Por parte de la banda gamma, se ve reducida considerablemente ya que es clave en la atención de tareas complejas donde se involucra el razonamiento; resultado esperado ya que el voluntario se encontraba en reposo.
+- Mirada Fija: En ambas tomas se observa que predomina la potencia en las bandas theta,beta y alfa respectivamente. El predominio de theta puede indicar cierto nivel de fatiga, somnolencia o baja activación, podría deberse a artefactos relacionados con el parpadeo o el movimiento ocular. La banda beta está asociada a procesos de atención y concentración, que son necesarios para mantener la mirada fija sin distraerse mientras que la presencia de alfa en menor medida es coherente ya que esta banda normalmente predomina con ojos cerrados y se reduce cuando el sujeto abre los ojos o dirige su atención a estímulos visuales, fenómeno conocido como bloqueo alfa o desincronización alfa.
+- Ojos cerrados (sin luz): En ambas tomas predominan en orden las bandas theta, beta y alfa. El resultado difiere a lo esperado ya que la banda que debería presentar mayor potencia debería ser la alfa, relacionada a la relajación y desconexión visual; esto podría deberse a que el sujeto no alcanzó un nivel de calma sficiente además de presentar ruidos musculares o eléctricos, lo que explicaría la presencia de las bandas beta y theta.
+- Parpadeo cada 2 segundos: El parpadeo voluntario es un estímulo motor simple que suele generar actividad de corta duración y, en general, no altera de forma significativa la distribución de bandas. El predominio de theta podría indicar que el sujeto experimentó desconexión atencional o somnolencia, incluso durante la tarea. Beta en segundo lugar refleja la activación motora y sensorial asociada al parpadeo, mientras que la alfa en tercer lugar confirma que no se consolidó un estado de relajación estable durante la tarea. Este comportamiento puede deberse tanto a factores individuales (cansancio, falta de concentración) como a la presencia de artefactos musculares u oculares que enmascararon la actividad típica.
+- Resta desde 100 a 0: Durante esta tarea cognitiva, el sujeto restó 7 desde el 100 al 0. El análisis espectral mostró predominio de theta, beta y alfa, mientras que gamma se mantuvo mucho menor en comparación con las demás bandas. Beta está asociada al esfuerzo mental y a la concentración, así como gamma, vinculada al procesamiento cognitivo de alto nivel y la integración de información. Sin embargo, en este caso el predominio de la theta podría reflejar fatiga mental o distracción, lo que difiere con lo esperado. La baja expresión de alfa es coherente, ya que la tarea demanda atención sostenida y evita estados de relajación. En cuanto a la gamma, su marcada reducción puede indicar que el sujeto no alcanzó un nivel elevado de procesamiento cortical sincronizado, ya sea por la dificultad de la tarea,o por la presencia de ruido, hipótesis comprobada ya que el sujeto mencionó que le costó hacer las restas sucesivas.
+- Actividad libre-Escuchar música: Durante esta actividad se reprodujeron videos que contenían ondas alfa, beta y una canción de libre elección por parte del evaluador. El resultado de las bandas fue el mismo en las 3 situaciones, predominó theta por poco sobre beta. Esta similitud de potencia puede deberse a que la música activa procecsos emocionales que generan relajo (banda theta) a la par de que requiere atención y procesamiento cognitivo (banda beta). La combinación de ambos refleja cómo el cerebro responde de manera integrada al estímulo musical favoreciendo un estado de relajación y manteniendo la atención e interpretación del estímulo. Además, se evidenció un ligero incremento en la banda gamma, lo que resulta coherente, ya que la música suele activar la sincronización cortical asociada con la integración multisensorial y la experiencia emocional.[4]
+- Respondiendo preguntas: Las preguntas que se realizaron fueron de complejidad media, por lo que el resultado esperado era el predominio de la banda gamma; sin embargo la potencia fue baja en comparación al resto de bandas. Esto puede deberse a que la demanda cognitiva no fue lo suficientemente elevada como para activar con fuerza esta banda, o a que el sujeto procesó la tarea de manera más superficial explicada por la ausencia de integración cortical más profunda. El mantenimiento del predominio en theta refleja carga mental o somnolencia.
+
+## **7. Referencias**
 
 [1] E. Niedermeyer and F. L. da Silva, Electroencephalography: Basic Principles, Clinical Applications, and Related Fields, 5th ed. Philadelphia, PA: Lippincott Williams & Wilkins, 2004.
 
