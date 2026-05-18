@@ -146,7 +146,7 @@ Se realizó el ploteo de las señales crudas y filtradas, así como de sus respe
 | Tipo                 | Señal original | Señal filtrada    |                    
 |-------------------------|----------|---------------------------------|
 |Ploteo   |<img width="827" height="582" alt="image" src="https://github.com/user-attachments/assets/6eb1273f-e9d8-4e76-9ed5-edd4de4fdf46" />|<img width="827" height="657" alt="Captura de pantalla 2026-05-17 224029" src="https://github.com/user-attachments/assets/09860e05-736b-4802-992e-ba37ba45a1e1" />|
-| PSD  ||<img width="852" height="422" alt="Captura de pantalla 2026-05-17 224049" src="https://github.com/user-attachments/assets/6a03334b-a0f5-4493-87f3-c533e88dce5d" />|
+| PSD  |<img width="512" height="257" alt="image" src="https://github.com/user-attachments/assets/247dadfd-ba93-4303-8e6a-6973a9cf7e11" />|<img width="852" height="422" alt="Captura de pantalla 2026-05-17 224049" src="https://github.com/user-attachments/assets/6a03334b-a0f5-4493-87f3-c533e88dce5d" />|
 
 ##### 2. Mirada fija
 | Tipo                 | Señal original | Señal filtrada    |                    
@@ -160,12 +160,90 @@ Se realizó el ploteo de las señales crudas y filtradas, así como de sus respe
 |Ploteo   |<img width="652" height="466" alt="image" src="https://github.com/user-attachments/assets/b49e28bc-bb5f-49f2-9ef2-dd85c8f28c07" />|<img width="637" height="442" alt="image" src="https://github.com/user-attachments/assets/b46942f2-9a0c-4998-a2f7-b99d92d849fb" />|
 | PSD  |<img width="607" height="287" alt="image" src="https://github.com/user-attachments/assets/8fcce4b2-5b93-4556-a500-ffee1eb82dfa" />|<img width="532" height="260" alt="image" src="https://github.com/user-attachments/assets/580a1a6f-ec1d-4176-b523-8baf8f961f21" />|
 
-##### 5. Artefactos: parpadeo y masticación4. Segundo reposo basal con ojos cerrados
+##### 4. Artefactos: parpadeo y masticación. Segundo reposo basal con ojos cerrados
 | Tipo                 | Señal original | Señal filtrada    |                    
 |-------------------------|----------|---------------------------------|
-|Ploteo   |<img width="652" height="466" alt="image" src="https://github.com/user-attachments/assets/b49e28bc-bb5f-49f2-9ef2-dd85c8f28c07" />|<img width="637" height="442" alt="image" src="https://github.com/user-attachments/assets/b46942f2-9a0c-4998-a2f7-b99d92d849fb" />|
-| PSD  |<img width="607" height="287" alt="image" src="https://github.com/user-attachments/assets/8fcce4b2-5b93-4556-a500-ffee1eb82dfa" />|<img width="532" height="260" alt="image" src="https://github.com/user-attachments/assets/580a1a6f-ec1d-4176-b523-8baf8f961f21" />|
+|Ploteo   |<img width="832" height="685" alt="image" src="https://github.com/user-attachments/assets/3581aa00-23eb-4fce-b2ec-a73a5b382413" />|<img width="842" height="642" alt="image" src="https://github.com/user-attachments/assets/257da837-f754-4fc5-8f8c-1adc4b3b0107" />|
+| PSD  |<img width="836" height="406" alt="image" src="https://github.com/user-attachments/assets/fed5aa63-cfb1-4508-b331-37a5bcc8a3af" />|<img width="852" height="401" alt="image" src="https://github.com/user-attachments/assets/8c3916bb-c2a4-4f60-a199-c4be39c4a0e7" />|
 
+##### 5. Tercer reposo basal con ojos cerrados
+| Tipo                 | Señal original | Señal filtrada    |                    
+|-------------------------|----------|---------------------------------|
+|Ploteo   |<img width="742" height="547" alt="image" src="https://github.com/user-attachments/assets/79436202-0096-4b60-924c-342a7b2f8d7a" />|<img width="835" height="640" alt="image" src="https://github.com/user-attachments/assets/af6a5ccf-f0b6-4fa1-9e8c-8066ad6fd534" />|
+| PSD  |<img width="847" height="402" alt="image" src="https://github.com/user-attachments/assets/22f71824-842c-46fa-bacf-115d03d97025" />|<img width="837" height="372" alt="image" src="https://github.com/user-attachments/assets/462a162d-4c70-4092-96a2-642e862fddb0" />|
+
+##### 6. Tarea cognitiva / preguntas sencillas
+| Tipo                 | Señal original | Señal filtrada    |                    
+|-------------------------|----------|---------------------------------|
+|Ploteo   |<img width="832" height="625" alt="image" src="https://github.com/user-attachments/assets/4b308e4c-99b3-47ce-97f2-42d770cb6ced" />|<img width="847" height="652" alt="image" src="https://github.com/user-attachments/assets/febb6891-77df-4adf-b8e1-72de60dcf2ec" />|
+| PSD  |<img width="832" height="407" alt="image" src="https://github.com/user-attachments/assets/91958484-25c3-49e3-b7e5-0038efa3124c" />|<img width="821" height="392" alt="image" src="https://github.com/user-attachments/assets/72c79879-58d8-44bd-887d-b4ef5f737f72" />|
+
+##### 7. Tarea cognitiva / preguntas complejas
+| Tipo                 | Señal original | Señal filtrada    |                    
+|-------------------------|----------|---------------------------------|
+|Ploteo   |<img width="852" height="762" alt="image" src="https://github.com/user-attachments/assets/015c11e9-d053-4f58-92cd-d89547a5af26" />|<img width="821" height="590" alt="image" src="https://github.com/user-attachments/assets/b9caaa7e-5363-4453-b5ca-505d33606fd1" />|
+| PSD  |<img width="840" height="405" alt="image" src="https://github.com/user-attachments/assets/2beeb9d9-eb13-4ee7-9090-da592eff3787" />|<img width="862" height="397" alt="image" src="https://github.com/user-attachments/assets/da48ba1a-c91f-4c8b-812a-8b204536986b" />|
+
+##### 8.  Actividad libre: música relajante
+| Tipo                 | Señal original | Señal filtrada    |                    
+|-------------------------|----------|---------------------------------|
+|Ploteo   |<img width="837" height="472" alt="image" src="https://github.com/user-attachments/assets/196d187e-5b44-45f0-9e16-ea16f14d1682" />|<img width="857" height="577" alt="image" src="https://github.com/user-attachments/assets/2af02e09-c3db-4089-a5a1-347ac5ea7106" />|
+| PSD  |<img width="741" height="347" alt="image" src="https://github.com/user-attachments/assets/4ddeebcd-f8bc-40d1-b345-b94ed47982c2" />|<img width="662" height="312" alt="image" src="https://github.com/user-attachments/assets/bfc7c89d-24c7-4958-a033-4e86d0fe42d9" />|
+
+##### 9.  Actividad libre: música estresante
+| Tipo                 | Señal original | Señal filtrada    |                    
+|-------------------------|----------|---------------------------------|
+|Ploteo   |<img width="837" height="640" alt="image" src="https://github.com/user-attachments/assets/016cc8fa-df9b-44ab-a515-701addd0259a" />|<img width="847" height="647" alt="image" src="https://github.com/user-attachments/assets/1d09fcdf-6c80-4b78-8167-20db47082b6e" />|
+| PSD  |<img width="852" height="412" alt="image" src="https://github.com/user-attachments/assets/cb1f713d-a052-488a-91e8-56865fb8b9cb" />|<img width="837" height="395" alt="image" src="https://github.com/user-attachments/assets/0fef8fd4-5fd8-4c10-a484-e3e997e0550e" />|
+
+#### d.2 Señales obtenidas con electrodos adhesivos
+##### 1. Reposo basal
+| Tipo                 | Señal original | Señal filtrada    |                    
+|-------------------------|----------|---------------------------------|
+|Ploteo   |<img width="572" height="450" alt="image" src="https://github.com/user-attachments/assets/61919007-216c-44c0-bdaa-965e061dcb54" />|<img width="797" height="610" alt="image" src="https://github.com/user-attachments/assets/64c6c457-02c6-4c5f-85e0-d64082a0e84d" />|
+| PSD  |<img width="617" height="300" alt="image" src="https://github.com/user-attachments/assets/04c6b084-1cdd-498d-80f9-dcf8e772d547" />|<img width="595" height="275" alt="image" src="https://github.com/user-attachments/assets/e4ef1e20-aa83-4bfe-aa4a-e96920ec5830" />|
+
+##### 2. Mirada fija
+| Tipo                 | Señal original | Señal filtrada    |                    
+|-------------------------|----------|---------------------------------|
+|Ploteo   |<img width="656" height="487" alt="image" src="https://github.com/user-attachments/assets/dd7ce928-43fc-46c0-83bc-6c18470ed58f" />|<img width="695" height="477" alt="image" src="https://github.com/user-attachments/assets/6481c2ad-8447-48eb-9018-cdff7f8d27f2" />|
+| PSD  |<img width="657" height="297" alt="image" src="https://github.com/user-attachments/assets/972c29fb-34ee-4144-afa9-d0757343bf55" />|<img width="617" height="305" alt="image" src="https://github.com/user-attachments/assets/147ac4fe-9726-4348-9cd1-bab297ca35e7" />|
+
+##### 3. Segundo reposo basal con ojos cerrados
+| Tipo                 | Señal original | Señal filtrada    |                    
+|-------------------------|----------|---------------------------------|
+|Ploteo   |<img width="715" height="556" alt="image" src="https://github.com/user-attachments/assets/ce471b80-66aa-4e9e-bb73-018168b6555e" />|<img width="857" height="642" alt="image" src="https://github.com/user-attachments/assets/a6ec7c48-2418-4fcd-a77e-2b2754c61aa3" />|
+| PSD  |<img width="576" height="281" alt="image" src="https://github.com/user-attachments/assets/051fe22e-18a8-4c33-9195-82c05965dd12" />|<img width="832" height="396" alt="image" src="https://github.com/user-attachments/assets/da88af17-0201-42df-9158-cdfb8e797212" />|
+
+##### 4. Artefactos: parpadeo y masticación. Segundo reposo basal con ojos cerrados
+| Tipo                 | Señal original | Señal filtrada    |                    
+|-------------------------|----------|---------------------------------|
+|Ploteo   |<img width="542" height="397" alt="image" src="https://github.com/user-attachments/assets/813b8a73-044e-423f-ae58-01cc0e7b2910" />|<img width="862" height="627" alt="image" src="https://github.com/user-attachments/assets/2cc160a9-88d9-4ae1-842e-bbe6b1a835da" />|
+| PSD  |<img width="707" height="335" alt="image" src="https://github.com/user-attachments/assets/684e79fa-3c5a-4243-a3fb-78074f4c5020" />|<img width="702" height="330" alt="image" src="https://github.com/user-attachments/assets/b757cdeb-4f5e-4334-9b0a-3dad75ab208a" >|
+
+##### 5. Tercer reposo basal con ojos cerrados
+| Tipo                 | Señal original | Señal filtrada    |                    
+|-------------------------|----------|---------------------------------|
+|Ploteo   |<img width="817" height="617" alt="image" src="https://github.com/user-attachments/assets/c7b805d5-1b94-43ca-b9bb-8c36874e4bdd" />|<img width="857" height="647" alt="image" src="https://github.com/user-attachments/assets/2e67e2d2-7ff7-4a31-972a-82d195a95764" />|
+| PSD  |<img width="835" height="382" alt="image" src="https://github.com/user-attachments/assets/6f31bf05-02ca-44e5-8849-6651c40eba06" />|<img width="686" height="336" alt="image" src="https://github.com/user-attachments/assets/da43a345-5797-4951-a82f-86af8fa57758" />|
+
+##### 6. Tarea cognitiva / preguntas sencillas
+| Tipo                 | Señal original | Señal filtrada    |                    
+|-------------------------|----------|---------------------------------|
+|Ploteo   |<img width="832" height="652" alt="image" src="https://github.com/user-attachments/assets/0b7079ac-6812-4960-a50c-0f7d8eaf45c3" />|<img width="841" height="646" alt="image" src="https://github.com/user-attachments/assets/52f5f8c6-8203-4d8a-aa67-d52175213d8d" />|
+| PSD  |<img width="840" height="400" alt="image" src="https://github.com/user-attachments/assets/7e03da61-b30b-4683-b98b-7f937e4f70f6" />|<img width="852" height="397" alt="image" src="https://github.com/user-attachments/assets/9f9cf35f-49c4-4a9f-bcee-2809ae5528c9" />|
+
+##### 7. Tarea cognitiva / preguntas complejas
+| Tipo                 | Señal original | Señal filtrada    |                    
+|-------------------------|----------|---------------------------------|
+|Ploteo   |<img width="846" height="670" alt="image" src="https://github.com/user-attachments/assets/82d4142c-f428-45a4-b4d2-0cd57cd00f74" />|<img width="822" height="617" alt="image" src="https://github.com/user-attachments/assets/67bda3d4-5ff9-41e4-a201-4b48d80cc408" />|
+| PSD  |<img width="831" height="407" alt="image" src="https://github.com/user-attachments/assets/c262dd84-2aae-4b41-94e2-ead80290a5c8" />|<img width="852" height="417" alt="image" src="https://github.com/user-attachments/assets/b8ee286a-fdd2-4b93-8acd-616ff55b1cf0" />|
+
+##### 8.  Actividad libre: música 
+| Tipo                 | Señal original | PSD    |                    
+|-------------------------|----------|---------------------------------|
+|Relajante  |<img width="860" height="680" alt="image" src="https://github.com/user-attachments/assets/123e5149-457a-43f9-afd2-538360fefe46" />|<img width="846" height="392" alt="image" src="https://github.com/user-attachments/assets/3b0d3d4a-844c-4026-a9c4-61b193fae691" />|
+|Estresante |<img width="842" height="645" alt="image" src="https://github.com/user-attachments/assets/4e055131-815e-49f1-9196-073f7007ec43" />|<img width="832" height="395" alt="image" src="https://github.com/user-attachments/assets/b1ae429e-27d5-41eb-b700-505462363248" />|
 
 ## **6. Discusión y resultados**
 - Reposo: En la gráfica de PSD se observa que tanto en la señal cruda como filtrada, la banda delta presenta mayor potencia, seguida de beta y theta. Lo ideal sería que al estar en reposo la banda theta presente mayor potencia ya que está asociada a la somnolencia ligera y relajación, no obstante se ve mayor potencia en delta y beta, la cual está relacionada con estados de alerta y tensión mental, lo que indica que la persona evaluada mantenía un nivel de tensión mental a pesar del intento de mantener la calma. Por parte de la banda gamma, se ve reducida considerablemente ya que es clave en la atención de tareas complejas donde se involucra el razonamiento; resultado esperado ya que el voluntario se encontraba en reposo.
