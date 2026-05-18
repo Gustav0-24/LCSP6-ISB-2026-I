@@ -141,6 +141,11 @@ La señal EEG refleja la suma de potenciales postsinápticos de grandes poblacio
 ### d) Ploteo de las señales
 Se realizó el ploteo de las señales crudas y filtradas, así como de sus respectivos FFT en amplitud y dB, análisis Welch y PSP.
 
+#### d.1 Señales obtenidas con sensor EEG con SnapBIT-DUO
+##### 1. Reposo basal
+
+
+
 ## **6. Discusión y resultados**
 - Reposo: En la gráfica de PSD se observa que tanto en la señal cruda como filtrada, la banda delta presenta mayor potencia, seguida de beta y theta. Lo ideal sería que al estar en reposo la banda theta presente mayor potencia ya que está asociada a la somnolencia ligera y relajación, no obstante se ve mayor potencia en delta y beta, la cual está relacionada con estados de alerta y tensión mental, lo que indica que la persona evaluada mantenía un nivel de tensión mental a pesar del intento de mantener la calma. Por parte de la banda gamma, se ve reducida considerablemente ya que es clave en la atención de tareas complejas donde se involucra el razonamiento; resultado esperado ya que el voluntario se encontraba en reposo.
 - Mirada Fija: En ambas tomas se observa que predomina la potencia en las bandas theta,beta y alfa respectivamente. El predominio de theta puede indicar cierto nivel de fatiga, somnolencia o baja activación, podría deberse a artefactos relacionados con el parpadeo o el movimiento ocular. La banda beta está asociada a procesos de atención y concentración, que son necesarios para mantener la mirada fija sin distraerse mientras que la presencia de alfa en menor medida es coherente ya que esta banda normalmente predomina con ojos cerrados y se reduce cuando el sujeto abre los ojos o dirige su atención a estímulos visuales, fenómeno conocido como bloqueo alfa o desincronización alfa.
